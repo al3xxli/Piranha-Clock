@@ -1,0 +1,17 @@
+{
+  "file": "print_beds/Bed_00_Fit_Samples.stl",
+  "optional_subset": true,
+  "parts": [
+    "T01",
+    "T02",
+    "T03",
+    "T04",
+    "T05",
+    "R15",
+    "R16",
+    "R17"
+  ],
+  "closed_components": 8,
+  "note": "Updated user quick-fit export. All parts also occur on full Bed 01; do not print twice unless spares are wanted.",
+  "physical_printed": false
+}

@@ -1,0 +1,92 @@
+Bed,ID,Part,X mm,Y mm,Z mm,Extra rotation X deg,Extra rotation Y deg,Extra rotation Z deg,Bed local min X mm,Bed local min Y mm,Orientation and supports
+1,T01,Flat pin coupon - one two three dots = 0.15 0.20 0.25 mm per side,54.0,18.0,8.0,0,0,0,15.0,15.0,Flat holes: 0.15 / 0.20 / 0.25 mm per-side clearance. Three dots match the successful user fit.
+1,T03,Flat tooth socket fit coupon,48.0,14.0,9.0,0,0,0,85.0,15.0,Test flat tooth roots before the jaws.
+1,T02,Flat push-pin coupon key - 8 mm grip,12.04,7.0,3.0,0,0,90,150.0,15.0,Flat original base down.
+1,T04,Print-in-place hinge sample - axle side,15.8,31.1,33.999,0,0,0,106.13,175.0,PRINT IN PLACE: hinge axes remain vertical. Preserve 22.5-degree partial curl; stop tabs print clear of both limits. No support or brim in joints.
+1,T05,Print-in-place hinge sample - captive knuckle side,20.08,30.129,31.6,0,0,0,100.0,197.0,PRINT IN PLACE: hinge axes remain vertical. Preserve 22.5-degree partial curl; stop tabs print clear of both limits. No support or brim in joints.
+1,R01,Bottom tray to rim 1 - flat split push pin,11.84,7.0,3.0,0,0,90,10.0,105.0,3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.
+1,R02,Bottom tray to rim 2 - flat split push pin,11.84,7.0,3.0,0,0,90,46.0,105.0,3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.
+1,R03,Bottom tray to rim 3 - flat split push pin,11.84,7.0,3.0,0,0,90,82.0,105.0,3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.
+1,R04,Top support to rim 1 - flat split push pin,9.24,7.0,3.0,0,0,90,118.0,105.0,3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.
+1,R05,Top support to rim 2 - flat split push pin,9.24,7.0,3.0,0,0,90,154.0,105.0,3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.
+1,R06,Top support to rim 3 - flat split push pin,9.24,7.0,3.0,0,0,90,190.0,105.0,3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.
+1,R07,Stem foot 1 - flat split push pin,13.44,7.0,3.0,0,0,90,10.0,118.0,3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.
+1,R08,Stem foot 2 - flat split push pin,13.44,7.0,3.0,0,0,90,46.0,118.0,3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.
+1,R09,Stem foot 3 - flat split push pin,13.44,7.0,3.0,0,0,90,82.0,118.0,3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.
+1,R10,Display sleeve sandwich 1 - flat split push pin,27.94,7.0,3.0,0,0,90,118.0,118.0,3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.
+1,R11,Display sleeve sandwich 2 - flat split push pin,27.94,7.0,3.0,0,0,90,154.0,118.0,3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.
+1,R12,Tongue saddle 1 - flat split push pin,11.74,7.0,3.0,0,0,90,190.0,118.0,3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.
+1,R13,Tongue saddle 2 - flat split push pin,29.74,7.0,3.0,0,0,90,10.0,131.0,3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.
+1,R14,Tendon guide - flat split push pin,11.44,7.0,3.0,0,0,90,46.0,131.0,3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.
+1,R15,Head frame to stem 1 - flat split push pin,23.04,7.0,3.0,0,0,90,82.0,131.0,3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.
+1,R16,Head frame to stem 2 - flat split push pin,23.04,7.0,3.0,0,0,90,118.0,131.0,3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.
+1,R17,Head frame to stem 3 - flat split push pin,15.04,7.0,3.0,0,0,90,154.0,131.0,3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.
+1,R18,Skull to carrier 1 - flat split push pin,20.04,7.0,3.0,0,0,90,190.0,131.0,3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.
+1,R19,Skull to carrier 2 - flat split push pin,20.04,7.0,3.0,0,0,90,10.0,144.0,3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.
+1,R20,Skull to carrier 3 - flat split push pin,13.44,7.0,3.0,0,0,90,46.0,144.0,3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.
+1,R21,Upper right free-running pivot - flat split push pin,19.04,7.0,3.0,0,0,90,82.0,144.0,3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.
+1,R22,Lower right free-running pivot - flat split push pin,19.04,7.0,3.0,0,0,90,118.0,144.0,3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.
+1,R23,Lower left free-running pivot - flat split push pin,25.44,7.0,3.0,0,0,90,154.0,144.0,3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.
+1,R24,Sector to jaw 1 - flat split push pin,16.44,5.6,3.0,0,0,90,190.0,144.0,3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.
+1,R25,Sector to jaw 2 - flat split push pin,16.44,5.6,3.0,0,0,90,10.0,157.0,3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.
+1,R26,Sector to jaw 3 - flat split push pin,16.44,5.6,3.0,0,0,90,46.0,157.0,3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.
+1,R27,Removable cheek 1 - flat split push pin,31.04,7.0,3.0,0,0,90,82.0,157.0,3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.
+1,R28,Removable cheek 2 - flat split push pin,31.04,7.0,3.0,0,0,90,118.0,157.0,3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.
+1,F11,MG995 trial 25T / 5.60 mm bore,10.52,9.111,11.1,0,0,0,15.0,55.0,Spline opening up. Trial fit only; fine nozzle/layers for spline detail. No support inside bore.
+1,F12,MG995 trial 25T / 5.85 mm bore,10.52,9.111,11.1,0,0,0,40.0,55.0,Spline opening up. Trial fit only; fine nozzle/layers for spline detail. No support inside bore.
+1,F13,MG995 trial 25T / 6.10 mm bore,10.52,9.111,11.1,0,0,0,65.0,55.0,Spline opening up. Trial fit only; fine nozzle/layers for spline detail. No support inside bore.
+1,F14,MG995 trial 24T / 5.60 mm bore,10.52,9.111,11.1,0,0,0,90.0,55.0,Spline opening up. Trial fit only; fine nozzle/layers for spline detail. No support inside bore.
+1,F15,MG995 trial 24T / 5.85 mm bore,10.52,9.111,11.1,0,0,0,115.0,55.0,Spline opening up. Trial fit only; fine nozzle/layers for spline detail. No support inside bore.
+1,F16,MG995 trial 24T / 6.10 mm bore,10.52,9.111,11.1,0,0,0,140.0,55.0,Spline opening up. Trial fit only; fine nozzle/layers for spline detail. No support inside bore.
+1,F21,MG90S trial 21T / 4.60 mm bore,8.52,7.379,9.8,0,0,0,15.0,80.0,Spline opening up. Trial fit only; fine nozzle/layers for spline detail. No support inside bore.
+1,F22,MG90S trial 21T / 4.85 mm bore,8.52,7.379,9.8,0,0,0,40.0,80.0,Spline opening up. Trial fit only; fine nozzle/layers for spline detail. No support inside bore.
+1,F23,MG90S trial 21T / 5.10 mm bore,8.52,7.379,9.8,0,0,0,65.0,80.0,Spline opening up. Trial fit only; fine nozzle/layers for spline detail. No support inside bore.
+1,F24,MG90S trial 20T / 4.60 mm bore,8.52,7.379,9.8,0,0,0,90.0,80.0,Spline opening up. Trial fit only; fine nozzle/layers for spline detail. No support inside bore.
+1,F25,MG90S trial 20T / 4.85 mm bore,8.52,7.379,9.8,0,0,0,115.0,80.0,Spline opening up. Trial fit only; fine nozzle/layers for spline detail. No support inside bore.
+1,F26,MG90S trial 20T / 5.10 mm bore,8.52,7.379,9.8,0,0,0,140.0,80.0,Spline opening up. Trial fit only; fine nozzle/layers for spline detail. No support inside bore.
+1,C18,Push-pin cheek and MG995 horn axial keeper,66.192,52.892,21.126,180,0,0,15.0,175.0,"Retains user-saved flipped orientation; selective support, preserve keeper and pin passages."
+2,A01,Captive print-in-place tongue section 1,15.8,32.1,36.0,0,0,0,112.553,15.0,PRINT IN PLACE: hinge axes remain vertical. Preserve 22.5-degree partial curl; stop tabs print clear of both limits. No support or brim in joints.
+2,A02,Captive print-in-place tongue section 2,20.08,29.549,36.0,0,0,0,106.423,38.0,PRINT IN PLACE: hinge axes remain vertical. Preserve 22.5-degree partial curl; stop tabs print clear of both limits. No support or brim in joints.
+2,A03,Captive print-in-place tongue section 3,24.656,26.471,35.0,0,0,0,93.428,58.325,PRINT IN PLACE: hinge axes remain vertical. Preserve 22.5-degree partial curl; stop tabs print clear of both limits. No support or brim in joints.
+2,A04,Captive print-in-place tongue section 4,29.425,20.277,34.0,0,0,0,73.102,73.882,PRINT IN PLACE: hinge axes remain vertical. Preserve 22.5-degree partial curl; stop tabs print clear of both limits. No support or brim in joints.
+2,A05,Captive print-in-place tongue section 5,31.1,15.8,33.999,0,0,0,51.102,80.351,PRINT IN PLACE: hinge axes remain vertical. Preserve 22.5-degree partial curl; stop tabs print clear of both limits. No support or brim in joints.
+2,A06,Captive print-in-place tongue section 6,29.549,20.08,33.999,0,0,0,30.653,74.221,PRINT IN PLACE: hinge axes remain vertical. Preserve 22.5-degree partial curl; stop tabs print clear of both limits. No support or brim in joints.
+2,A07,Captive print-in-place tongue section 7,24.877,24.877,31.6,0,0,0,15.0,61.005,PRINT IN PLACE: hinge axes remain vertical. Preserve 22.5-degree partial curl; stop tabs print clear of both limits. No support or brim in joints.
+2,A00,Snap-in tongue mounting saddle,66.5,21.58,24.939,0,0,0,145.0,15.0,Mounting feet down; supports under saddle only.
+2,G02,Quarter sector of 64 tooth gear - 16 retained teeth,46.971,44.685,6.0,180,0,0,170.0,55.0,Flat gear face down; keep teeth and push-pin holes clear.
+2,A08,MG90S drum with custom keyed drive hub,23.0,23.0,11.6,0,0,0,140.0,60.0,Flat original base down.
+2,A09,Push-in fairlead and MG90S horn axial keeper,13.2,22.2,25.1,0,0,0,140.0,90.0,Mounting pad down; local support for thrust keeper.
+2,H01,Custom MG995 spline insert - trial 25T 6 mm,10.52,9.111,11.1,0,0,0,15.0,130.0,Spline opening up. Trial fit only; fine nozzle/layers for spline detail. No support inside bore.
+2,H02,Custom MG90S spline insert - trial 21T 4.8 mm,8.52,7.379,9.8,0,0,0,40.0,130.0,Spline opening up. Trial fit only; fine nozzle/layers for spline detail. No support inside bore.
+2,S01,MG995 removable press-over cradle clip,27.2,42.1,8.0,0,0,90,15.0,160.0,Flat original base down.
+2,S02,MG90S removable underside case retainer,33.0,23.4,3.5,0,0,0,50.0,175.0,Flat original base down.
+2,D01,Display PCB edge shim 1,2.0,22.0,2.6,0,0,0,65.0,130.0,Flat original base down.
+2,D02,Display PCB edge shim 2,2.0,22.0,2.6,0,0,0,82.0,130.0,Flat original base down.
+2,C10,Open electronics tray with PCB edge rails,122.0,106.0,14.5,0,0,90,105.0,120.0,Flat original base down.
+3,G00,Upper carrier with integral pinion and custom keyed drive hub,114.0,94.5,21.6,180,0,0,23.826,25.404,Mounting pads down; support arms and gear locally. Do not fill the hex hub socket.
+3,C04,Stationary twin hinge frame and MG995 cradle,64.5,91.0,63.5,-90,0,-90,150.365,26.18,"Rear frame face down; support remaining ledges, keep clip slots and bearings clear."
+3,C12,Hollow ribbed stem with cable passage and leaf sockets,98.0,64.0,133.2,0,0,90,70.29,139.939,Stem foot down; localized supports under upper flange and leaf sockets.
+3,C15,Removable clock bezel and adjustable TM1637 pocket,68.0,40.0,20.6,180,0,0,47.745,45.37,Bezel face down; PCB cradle above.
+3,C16,Display retaining clamp 1,15.0,16.0,9.0,0,0,0,63.92,56.94,Flat original base down.
+3,C17,Display retaining clamp 2,15.0,16.0,9.0,0,0,0,84.15,56.94,Flat original base down.
+4,C11,Open three-spoke stem support - optional cardboard soil infill,158.0,158.0,4.4,0,0,0,19.17,41.0,Flat original base down.
+4,C13,Left veined serrated leaf - split press-fit tang,45.067,95.419,24.972,0,0,90,167.68,17.0,Leaf veins up; localized underside supports.
+4,C14,Right veined serrated leaf - split press-fit tang,45.067,95.419,24.972,0,0,90,167.68,126.0,Leaf veins up; localized underside supports.
+5,C02,Lower jaw and tongue tray with six keyed tooth sockets,161.2,147.003,55.421,0,0,0,39.4,46.308,"Retains user-saved broad, shallow orientation; selective support under tray, bowl and sockets."
+6,C01,Upper skull and plump lip with eight keyed tooth sockets,181.346,173.043,74.628,180,0,0,25.602,29.179,"Retains user-saved broad, shallow orientation; selective support beneath shell and lip."
+7,C09,Bottom rim - 5.4 mm sleeve channel,160.0,160.0,14.0,0,0,0,40.0,40.0,Flat original base down.
+7,U01,Upper flat snap-in tooth 1,16.413,34.497,3.0,0,0,0,75.0,80.0,Flat 3 mm fang face down; no support. Keep the split root free of paint and brim.
+7,U02,Upper flat snap-in tooth 2,19.912,36.467,3.0,0,0,0,99.4,80.0,Flat 3 mm fang face down; no support. Keep the split root free of paint and brim.
+7,U03,Upper flat snap-in tooth 3,16.047,33.277,3.0,0,0,0,123.8,80.0,Flat 3 mm fang face down; no support. Keep the split root free of paint and brim.
+7,U04,Upper flat snap-in tooth 4,16.387,33.41,3.0,0,0,0,148.2,80.0,Flat 3 mm fang face down; no support. Keep the split root free of paint and brim.
+7,U05,Upper flat snap-in tooth 5,16.26,36.405,3.0,0,0,0,75.0,123.0,Flat 3 mm fang face down; no support. Keep the split root free of paint and brim.
+7,U06,Upper flat snap-in tooth 6,16.036,34.337,3.0,0,0,0,99.4,123.0,Flat 3 mm fang face down; no support. Keep the split root free of paint and brim.
+7,U07,Upper flat snap-in tooth 7,20.169,32.784,3.0,0,0,0,123.8,123.0,Flat 3 mm fang face down; no support. Keep the split root free of paint and brim.
+7,U08,Upper flat snap-in tooth 8,16.808,35.833,3.0,0,0,0,148.2,123.0,Flat 3 mm fang face down; no support. Keep the split root free of paint and brim.
+8,B01,Top rim - sleeve channel and stem-support ledge,166.0,166.0,20.0,0,0,0,37.0,37.0,Flat original base down.
+8,L01,Lower flat snap-in tooth 1,10.868,27.202,3.0,0,0,0,90.0,85.0,Flat 3 mm fang face down; no support. Keep the split root free of paint and brim.
+8,L02,Lower flat snap-in tooth 2,10.888,24.935,3.0,0,0,0,115.0,85.0,Flat 3 mm fang face down; no support. Keep the split root free of paint and brim.
+8,L03,Lower flat snap-in tooth 3,10.885,23.29,3.0,0,0,0,140.0,85.0,Flat 3 mm fang face down; no support. Keep the split root free of paint and brim.
+8,L04,Lower flat snap-in tooth 4,10.887,25.974,3.0,0,0,0,90.0,125.0,Flat 3 mm fang face down; no support. Keep the split root free of paint and brim.
+8,L05,Lower flat snap-in tooth 5,10.89,26.915,3.0,0,0,0,115.0,125.0,Flat 3 mm fang face down; no support. Keep the split root free of paint and brim.
+8,L06,Lower flat snap-in tooth 6,10.867,23.984,3.0,0,0,0,140.0,125.0,Flat 3 mm fang face down; no support. Keep the split root free of paint and brim.

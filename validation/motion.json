@@ -1,0 +1,8 @@
+{
+  "poses": 192,
+  "issues": {},
+  "threshold_mm3": 0.05,
+  "physical_tested": false,
+  "intentional_compression": "Only the two 0.05 mm tongue-root press ribs are excluded by explicit spatial masks.",
+  "scope": "All rigid head parts, custom hubs, push pins, captive tongue hinges, stem and servo case envelopes. Equal-angle kinematics; no spring, friction or flexure simulation."
+}

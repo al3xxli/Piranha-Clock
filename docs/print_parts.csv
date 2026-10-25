@@ -1,0 +1,92 @@
+ID,Part,X mm,Y mm,Z mm,STL
+C09,Bottom rim - 5.4 mm sleeve channel,160.0,160.0,14.0,stl/C09.stl
+C10,Open electronics tray with PCB edge rails,106.0,122.0,14.5,stl/C10.stl
+C11,Open three-spoke stem support - optional cardboard soil infill,158.0,158.0,4.4,stl/C11.stl
+C12,Hollow ribbed stem with cable passage and leaf sockets,64.0,98.0,133.2,stl/C12.stl
+C13,Left veined serrated leaf - split press-fit tang,95.419,45.067,24.972,stl/C13.stl
+C14,Right veined serrated leaf - split press-fit tang,95.419,45.067,24.972,stl/C14.stl
+C15,Removable clock bezel and adjustable TM1637 pocket,68.0,40.0,20.6,stl/C15.stl
+C16,Display retaining clamp 1,15.0,16.0,9.0,stl/C16.stl
+C17,Display retaining clamp 2,15.0,16.0,9.0,stl/C17.stl
+U01,Upper flat snap-in tooth 1,16.413,34.497,3.0,stl/U01.stl
+U02,Upper flat snap-in tooth 2,19.912,36.467,3.0,stl/U02.stl
+U03,Upper flat snap-in tooth 3,16.047,33.277,3.0,stl/U03.stl
+U04,Upper flat snap-in tooth 4,16.387,33.41,3.0,stl/U04.stl
+U05,Upper flat snap-in tooth 5,16.26,36.405,3.0,stl/U05.stl
+U06,Upper flat snap-in tooth 6,16.036,34.337,3.0,stl/U06.stl
+U07,Upper flat snap-in tooth 7,20.169,32.784,3.0,stl/U07.stl
+U08,Upper flat snap-in tooth 8,16.808,35.833,3.0,stl/U08.stl
+C01,Upper skull and plump lip with eight keyed tooth sockets,181.346,173.043,74.628,stl/C01.stl
+L01,Lower flat snap-in tooth 1,10.868,27.202,3.0,stl/L01.stl
+L02,Lower flat snap-in tooth 2,10.888,24.935,3.0,stl/L02.stl
+L03,Lower flat snap-in tooth 3,10.885,23.29,3.0,stl/L03.stl
+L04,Lower flat snap-in tooth 4,10.887,25.974,3.0,stl/L04.stl
+L05,Lower flat snap-in tooth 5,10.89,26.915,3.0,stl/L05.stl
+L06,Lower flat snap-in tooth 6,10.867,23.984,3.0,stl/L06.stl
+C02,Lower jaw and tongue tray with six keyed tooth sockets,161.2,147.003,55.421,stl/C02.stl
+C04,Stationary twin hinge frame and MG995 cradle,91.0,63.5,64.5,stl/C04.stl
+G00,Upper carrier with integral pinion and custom keyed drive hub,114.0,94.5,21.6,stl/G00.stl
+G02,Quarter sector of 64 tooth gear - 16 retained teeth,46.971,44.685,6.0,stl/G02.stl
+C18,Push-pin cheek and MG995 horn axial keeper,66.192,52.892,21.126,stl/C18.stl
+A01,Captive print-in-place tongue section 1,15.8,32.1,36.0,stl/Tongue_Print_in_Place.stl
+A02,Captive print-in-place tongue section 2,20.08,29.549,36.0,stl/Tongue_Print_in_Place.stl
+A03,Captive print-in-place tongue section 3,24.656,26.471,35.0,stl/Tongue_Print_in_Place.stl
+A04,Captive print-in-place tongue section 4,29.425,20.277,34.0,stl/Tongue_Print_in_Place.stl
+A05,Captive print-in-place tongue section 5,31.1,15.8,33.999,stl/Tongue_Print_in_Place.stl
+A06,Captive print-in-place tongue section 6,29.549,20.08,33.999,stl/Tongue_Print_in_Place.stl
+A07,Captive print-in-place tongue section 7,24.877,24.877,31.6,stl/Tongue_Print_in_Place.stl
+A08,MG90S drum with custom keyed drive hub,23.0,23.0,11.6,stl/A08.stl
+A09,Push-in fairlead and MG90S horn axial keeper,13.2,22.2,25.1,stl/A09.stl
+B01,Top rim - sleeve channel and stem-support ledge,166.0,166.0,20.0,stl/B01.stl
+R01,Bottom tray to rim 1 - flat split push pin,7.0,11.84,3.0,stl/R01.stl
+R02,Bottom tray to rim 2 - flat split push pin,7.0,11.84,3.0,stl/R02.stl
+R03,Bottom tray to rim 3 - flat split push pin,7.0,11.84,3.0,stl/R03.stl
+R04,Top support to rim 1 - flat split push pin,7.0,9.24,3.0,stl/R04.stl
+R05,Top support to rim 2 - flat split push pin,7.0,9.24,3.0,stl/R05.stl
+R06,Top support to rim 3 - flat split push pin,7.0,9.24,3.0,stl/R06.stl
+R07,Stem foot 1 - flat split push pin,7.0,13.44,3.0,stl/R07.stl
+R08,Stem foot 2 - flat split push pin,7.0,13.44,3.0,stl/R08.stl
+R09,Stem foot 3 - flat split push pin,7.0,13.44,3.0,stl/R09.stl
+R10,Display sleeve sandwich 1 - flat split push pin,7.0,27.94,3.0,stl/R10.stl
+R11,Display sleeve sandwich 2 - flat split push pin,7.0,27.94,3.0,stl/R11.stl
+D01,Display PCB edge shim 1,2.0,22.0,2.6,stl/D01.stl
+D02,Display PCB edge shim 2,2.0,22.0,2.6,stl/D02.stl
+A00,Snap-in tongue mounting saddle,66.5,21.58,24.939,stl/A00.stl
+R12,Tongue saddle 1 - flat split push pin,7.0,11.74,3.0,stl/R12.stl
+R13,Tongue saddle 2 - flat split push pin,7.0,29.74,3.0,stl/R13.stl
+R14,Tendon guide - flat split push pin,7.0,11.44,3.0,stl/R14.stl
+R15,Head frame to stem 1 - flat split push pin,7.0,23.04,3.0,stl/R15.stl
+R16,Head frame to stem 2 - flat split push pin,7.0,23.04,3.0,stl/R16.stl
+R17,Head frame to stem 3 - flat split push pin,7.0,15.04,3.0,stl/R17.stl
+R18,Skull to carrier 1 - flat split push pin,7.0,20.04,3.0,stl/R18.stl
+R19,Skull to carrier 2 - flat split push pin,7.0,20.04,3.0,stl/R19.stl
+R20,Skull to carrier 3 - flat split push pin,7.0,13.44,3.0,stl/R20.stl
+R21,Upper right free-running pivot - flat split push pin,7.0,19.04,3.0,stl/R21.stl
+R22,Lower right free-running pivot - flat split push pin,7.0,19.04,3.0,stl/R22.stl
+R23,Lower left free-running pivot - flat split push pin,7.0,25.44,3.0,stl/R23.stl
+R24,Sector to jaw 1 - flat split push pin,5.6,16.44,3.0,stl/R24.stl
+R25,Sector to jaw 2 - flat split push pin,5.6,16.44,3.0,stl/R25.stl
+R26,Sector to jaw 3 - flat split push pin,5.6,16.44,3.0,stl/R26.stl
+R27,Removable cheek 1 - flat split push pin,7.0,31.04,3.0,stl/R27.stl
+R28,Removable cheek 2 - flat split push pin,7.0,31.04,3.0,stl/R28.stl
+S01,MG995 removable press-over cradle clip,42.1,27.2,8.0,stl/S01.stl
+S02,MG90S removable underside case retainer,33.0,23.4,3.5,stl/S02.stl
+H01,Custom MG995 spline insert - trial 25T 6 mm,10.52,9.111,11.1,stl/H01.stl
+H02,Custom MG90S spline insert - trial 21T 4.8 mm,8.52,7.379,9.8,stl/H02.stl
+F11,MG995 trial 25T / 5.60 mm bore,10.52,9.111,11.1,stl/F11.stl
+F12,MG995 trial 25T / 5.85 mm bore,10.52,9.111,11.1,stl/F12.stl
+F13,MG995 trial 25T / 6.10 mm bore,10.52,9.111,11.1,stl/F13.stl
+F14,MG995 trial 24T / 5.60 mm bore,10.52,9.111,11.1,stl/F14.stl
+F15,MG995 trial 24T / 5.85 mm bore,10.52,9.111,11.1,stl/F15.stl
+F16,MG995 trial 24T / 6.10 mm bore,10.52,9.111,11.1,stl/F16.stl
+F21,MG90S trial 21T / 4.60 mm bore,8.52,7.379,9.8,stl/F21.stl
+F22,MG90S trial 21T / 4.85 mm bore,8.52,7.379,9.8,stl/F22.stl
+F23,MG90S trial 21T / 5.10 mm bore,8.52,7.379,9.8,stl/F23.stl
+F24,MG90S trial 20T / 4.60 mm bore,8.52,7.379,9.8,stl/F24.stl
+F25,MG90S trial 20T / 4.85 mm bore,8.52,7.379,9.8,stl/F25.stl
+F26,MG90S trial 20T / 5.10 mm bore,8.52,7.379,9.8,stl/F26.stl
+T01,Flat pin coupon - one two three dots = 0.15 0.20 0.25 mm per side,54.0,18.0,8.0,stl/T01.stl
+T02,Flat push-pin coupon key - 8 mm grip,7.0,12.04,3.0,stl/T02.stl
+T04,Print-in-place hinge sample - axle side,15.8,31.1,33.999,stl/Hinge_Sample_Print_in_Place.stl
+T05,Print-in-place hinge sample - captive knuckle side,20.08,30.129,31.6,stl/Hinge_Sample_Print_in_Place.stl
+T03,Flat tooth socket fit coupon,48.0,14.0,9.0,stl/T03.stl

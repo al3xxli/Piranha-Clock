@@ -1,0 +1,6 @@
+{
+  "poses": 5,
+  "threshold_mm3": 0.02,
+  "issues": {},
+  "scope": "Simplified free-string and elastic tubes against printed head parts; excludes knots, two-strand contact, wound string, friction and elastic force."
+}

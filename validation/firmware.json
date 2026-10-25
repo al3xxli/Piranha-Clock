@@ -1,0 +1,30 @@
+{
+  "board": "Arduino UNO R4 Minima",
+  "fqbn": "arduino:renesas_uno:minima",
+  "core": "1.6.0",
+  "verified_date": "2026-10-25",
+  "compile_passed": true,
+  "program_bytes": 64788,
+  "program_max_bytes": 262144,
+  "global_ram_bytes": 6032,
+  "ram_max_bytes": 32768,
+  "firmware_sha256": "8cff479bc789a7d827e4fa0d6c2594aca20b2e1a8de471f6b9dba38310dcb1ae",
+  "default_clock": "UNO R4 built-in RTC; explicit SET required after reset",
+  "default_optional_modules": false,
+  "default_auto_arm": false,
+  "all_options_compile": {
+    "passed": true,
+    "enabled": [
+      "USE_DS3231",
+      "USE_DISPLAY",
+      "USE_BUZZER",
+      "AUTO_ARM_AFTER_CALIBRATION"
+    ],
+    "program_bytes": 64152,
+    "global_ram_bytes": 5976
+  },
+  "warnings": "Warnings originate in the installed Arduino core, Servo and Wire; no sketch warnings reported.",
+  "uploaded_to_board": false,
+  "hardware_tested": false,
+  "physical_endpoints_calibrated": false
+}

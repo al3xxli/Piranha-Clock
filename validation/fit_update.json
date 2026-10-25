@@ -1,0 +1,206 @@
+{
+  "user_feedback": "Prior three-dot round pin hole fits; prior tongue printed but the moving stop tab welded to the outer hinge and required snipping.",
+  "flat_pin_count": 29,
+  "pins": [
+    {
+      "id": "R01",
+      "print_thickness_mm": 3,
+      "continuous_flat_contact_area_mm2": 29.59992154033346
+    },
+    {
+      "id": "R02",
+      "print_thickness_mm": 3,
+      "continuous_flat_contact_area_mm2": 29.59992154033346
+    },
+    {
+      "id": "R03",
+      "print_thickness_mm": 3,
+      "continuous_flat_contact_area_mm2": 29.599921540333426
+    },
+    {
+      "id": "R04",
+      "print_thickness_mm": 3,
+      "continuous_flat_contact_area_mm2": 25.13819490634814
+    },
+    {
+      "id": "R05",
+      "print_thickness_mm": 3,
+      "continuous_flat_contact_area_mm2": 25.13819490634814
+    },
+    {
+      "id": "R06",
+      "print_thickness_mm": 3,
+      "continuous_flat_contact_area_mm2": 25.13819490634811
+    },
+    {
+      "id": "R07",
+      "print_thickness_mm": 3,
+      "continuous_flat_contact_area_mm2": 33.8225225458628
+    },
+    {
+      "id": "R08",
+      "print_thickness_mm": 3,
+      "continuous_flat_contact_area_mm2": 33.8225225458628
+    },
+    {
+      "id": "R09",
+      "print_thickness_mm": 3,
+      "continuous_flat_contact_area_mm2": 33.822522545862824
+    },
+    {
+      "id": "R10",
+      "print_thickness_mm": 3,
+      "continuous_flat_contact_area_mm2": 72.08984415847306
+    },
+    {
+      "id": "R11",
+      "print_thickness_mm": 3,
+      "continuous_flat_contact_area_mm2": 72.08984415847306
+    },
+    {
+      "id": "R12",
+      "print_thickness_mm": 3,
+      "continuous_flat_contact_area_mm2": 29.33600897748783
+    },
+    {
+      "id": "R13",
+      "print_thickness_mm": 3,
+      "continuous_flat_contact_area_mm2": 76.8402702896938
+    },
+    {
+      "id": "R14",
+      "print_thickness_mm": 3,
+      "continuous_flat_contact_area_mm2": 28.74427128895112
+    },
+    {
+      "id": "R15",
+      "print_thickness_mm": 3,
+      "continuous_flat_contact_area_mm2": 59.158128579039335
+    },
+    {
+      "id": "R16",
+      "print_thickness_mm": 3,
+      "continuous_flat_contact_area_mm2": 59.158128579039335
+    },
+    {
+      "id": "R17",
+      "print_thickness_mm": 3,
+      "continuous_flat_contact_area_mm2": 38.04512355139232
+    },
+    {
+      "id": "R18",
+      "print_thickness_mm": 3,
+      "continuous_flat_contact_area_mm2": 51.24075169367174
+    },
+    {
+      "id": "R19",
+      "print_thickness_mm": 3,
+      "continuous_flat_contact_area_mm2": 51.24075169367174
+    },
+    {
+      "id": "R20",
+      "print_thickness_mm": 3,
+      "continuous_flat_contact_area_mm2": 33.82252254586284
+    },
+    {
+      "id": "R21",
+      "print_thickness_mm": 3,
+      "continuous_flat_contact_area_mm2": 48.601626065215726
+    },
+    {
+      "id": "R22",
+      "print_thickness_mm": 3,
+      "continuous_flat_contact_area_mm2": 48.60162606521577
+    },
+    {
+      "id": "R23",
+      "print_thickness_mm": 3,
+      "continuous_flat_contact_area_mm2": 65.49203008733342
+    },
+    {
+      "id": "R24",
+      "print_thickness_mm": 3,
+      "continuous_flat_contact_area_mm2": 29.460686773454754
+    },
+    {
+      "id": "R25",
+      "print_thickness_mm": 3,
+      "continuous_flat_contact_area_mm2": 29.460686773454754
+    },
+    {
+      "id": "R26",
+      "print_thickness_mm": 3,
+      "continuous_flat_contact_area_mm2": 29.46068677345476
+    },
+    {
+      "id": "R27",
+      "print_thickness_mm": 3,
+      "continuous_flat_contact_area_mm2": 80.27113360668628
+    },
+    {
+      "id": "R28",
+      "print_thickness_mm": 3,
+      "continuous_flat_contact_area_mm2": 80.27113360668646
+    },
+    {
+      "id": "T02",
+      "print_thickness_mm": 3,
+      "continuous_flat_contact_area_mm2": 30.127746666024606
+    }
+  ],
+  "production_clearance_per_side_mm": 0.25,
+  "production_main_profile_mm": [
+    4,
+    3
+  ],
+  "production_main_keyed_hole_mm": [
+    4.5,
+    3.5
+  ],
+  "three_dot_coupon_shank_gap_mm": 0.2496988640512836,
+  "jaw_running_bearing": "Round 4.5 mm bore around flat-sided 4 mm axle; fixed frame keyed.",
+  "tongue_print_orientation": "Previous side-standing orientation, hinge axes vertical; joints at 22.5 degrees between end stops.",
+  "tongue_hinges": [
+    {
+      "joint": 1,
+      "print_angle_deg": 22.5,
+      "moving_tab_gap_mm": 0.8000000000000007,
+      "minimum_pair_gap_mm": 0.34706492282870327
+    },
+    {
+      "joint": 2,
+      "print_angle_deg": 22.5,
+      "moving_tab_gap_mm": 0.8000000000000007,
+      "minimum_pair_gap_mm": 0.34706492282870327
+    },
+    {
+      "joint": 3,
+      "print_angle_deg": 22.5,
+      "moving_tab_gap_mm": 0.8000000000000007,
+      "minimum_pair_gap_mm": 0.34706492282870327
+    },
+    {
+      "joint": 4,
+      "print_angle_deg": 22.5,
+      "moving_tab_gap_mm": 0.8000000000000007,
+      "minimum_pair_gap_mm": 0.34706492282870327
+    },
+    {
+      "joint": 5,
+      "print_angle_deg": 22.5,
+      "moving_tab_gap_mm": 0.8000000000000007,
+      "minimum_pair_gap_mm": 0.34706492282870327
+    },
+    {
+      "joint": 6,
+      "print_angle_deg": 22.5,
+      "moving_tab_gap_mm": 0.8000000000000007,
+      "minimum_pair_gap_mm": 0.34706492282870327
+    }
+  ],
+  "export_minimum_component_gap_mm": 0.34706042841104223,
+  "whole_tongue_printed_together": true,
+  "each_section_has_bed_contact": true,
+  "new_geometry_physically_printed": false,
+  "mechanical_strength_tested": false
+}

@@ -1,0 +1,198 @@
+{
+  "hinge_motion_samples": 546,
+  "hinge_intersections": [],
+  "hinge_axial_capture": [
+    {
+      "joint": 1,
+      "axial_displacement_test_mm": [
+        -1,
+        1
+      ],
+      "retaining_intersection_mm3": [
+        15.01617153617376,
+        13.52220087432978
+      ]
+    },
+    {
+      "joint": 2,
+      "axial_displacement_test_mm": [
+        -1,
+        1
+      ],
+      "retaining_intersection_mm3": [
+        15.01617153617376,
+        13.522200874329778
+      ]
+    },
+    {
+      "joint": 3,
+      "axial_displacement_test_mm": [
+        -1,
+        1
+      ],
+      "retaining_intersection_mm3": [
+        15.008320915314945,
+        13.51432807898458
+      ]
+    },
+    {
+      "joint": 4,
+      "axial_displacement_test_mm": [
+        -1,
+        1
+      ],
+      "retaining_intersection_mm3": [
+        15.00466058953152,
+        13.510665800336012
+      ]
+    },
+    {
+      "joint": 5,
+      "axial_displacement_test_mm": [
+        -1,
+        1
+      ],
+      "retaining_intersection_mm3": [
+        15.00466058953152,
+        13.510665800336012
+      ]
+    },
+    {
+      "joint": 6,
+      "axial_displacement_test_mm": [
+        -1,
+        1
+      ],
+      "retaining_intersection_mm3": [
+        15.00466058953152,
+        13.510665800336012
+      ]
+    }
+  ],
+  "print_in_place_exports": [
+    {
+      "file": "Tongue_Print_in_Place.stl",
+      "captive_closed_components": 7,
+      "all_components_start_on_bed": true,
+      "size_mm": [
+        113.35311126708984,
+        81.1507339477539,
+        36.0
+      ]
+    },
+    {
+      "file": "Hinge_Sample_Print_in_Place.stl",
+      "captive_closed_components": 2,
+      "all_components_start_on_bed": true,
+      "size_mm": [
+        21.930070877075195,
+        52.12912368774414,
+        33.999000549316406
+      ]
+    }
+  ],
+  "flat_teeth": [
+    {
+      "id": "U01",
+      "flat_print_thickness_mm": 3.0000000000000027,
+      "installed_jaw_overlap_mm3": 4.061163840114734e-15
+    },
+    {
+      "id": "U02",
+      "flat_print_thickness_mm": 3.000000000000007,
+      "installed_jaw_overlap_mm3": 0.0
+    },
+    {
+      "id": "U03",
+      "flat_print_thickness_mm": 3.000000000000014,
+      "installed_jaw_overlap_mm3": 0.0
+    },
+    {
+      "id": "U04",
+      "flat_print_thickness_mm": 3.0000000000000107,
+      "installed_jaw_overlap_mm3": 1.0310220559250904e-15
+    },
+    {
+      "id": "U05",
+      "flat_print_thickness_mm": 3.000000000000007,
+      "installed_jaw_overlap_mm3": 0.0
+    },
+    {
+      "id": "U06",
+      "flat_print_thickness_mm": 3.000000000000007,
+      "installed_jaw_overlap_mm3": 2.1903594389638403e-15
+    },
+    {
+      "id": "U07",
+      "flat_print_thickness_mm": 3.000000000000007,
+      "installed_jaw_overlap_mm3": 1.5960150546003374e-15
+    },
+    {
+      "id": "U08",
+      "flat_print_thickness_mm": 3.0000000000000027,
+      "installed_jaw_overlap_mm3": 5.672328926009662e-15
+    },
+    {
+      "id": "L01",
+      "flat_print_thickness_mm": 3.000000000000007,
+      "installed_jaw_overlap_mm3": 0.0
+    },
+    {
+      "id": "L02",
+      "flat_print_thickness_mm": 3.0000000000000107,
+      "installed_jaw_overlap_mm3": 0.0
+    },
+    {
+      "id": "L03",
+      "flat_print_thickness_mm": 3.0000000000000107,
+      "installed_jaw_overlap_mm3": 5.727297976154677e-17
+    },
+    {
+      "id": "L04",
+      "flat_print_thickness_mm": 3.0000000000000107,
+      "installed_jaw_overlap_mm3": 1.9250517792248484e-17
+    },
+    {
+      "id": "L05",
+      "flat_print_thickness_mm": 3.0000000000000107,
+      "installed_jaw_overlap_mm3": 3.355480323261773e-17
+    },
+    {
+      "id": "L06",
+      "flat_print_thickness_mm": 3.000000000000007,
+      "installed_jaw_overlap_mm3": 0.0
+    }
+  ],
+  "crown_insertion_samples": 574,
+  "crown_insertion_issues": [],
+  "unintended_assembly_intersections": [],
+  "intentional_press_rib_contacts": [
+    {
+      "pair": [
+        "C12",
+        "C13"
+      ],
+      "total_intersection_mm3": 3.1359999999999277,
+      "outside_press_ribs_mm3": 0.0
+    },
+    {
+      "pair": [
+        "C12",
+        "C14"
+      ],
+      "total_intersection_mm3": 3.1359999999999415,
+      "outside_press_ribs_mm3": 0.0
+    },
+    {
+      "pair": [
+        "A01",
+        "A00"
+      ],
+      "total_intersection_mm3": 2.3799999999999555,
+      "outside_press_ribs_mm3": 0.0
+    }
+  ],
+  "physical_printed": false,
+  "slicer_checked": false,
+  "force_or_fatigue_simulated": false
+}

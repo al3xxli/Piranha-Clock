@@ -1,0 +1,13 @@
+# User-cut pot sleeve
+
+Only the top/bottom rings are printed as the pot wall. The 98 mm-tall sleeve seats from world Z=3 to Z=101 between the rings. Channels run from radius 72 to 77.4 mm: 5.4 mm radial space. The nominal sleeve outer diameter is 154 mm. C11's open support and C10's open tray remain printed load-bearing parts.
+
+Use the full-size SVG matching your sheet thickness: [1 mm cardboard](../templates/Sleeve_1mm_1to1.svg) or [5 mm foamcore](../templates/Sleeve_5mm_1to1.svg). These are wide sheets, so tile in your print application or trace dimensions manually. Print at **100%**, with no fit-to-page scaling; verify the 100 mm check line. Black lines cut; dashed line marks the start of the 15 mm seam overlap. Front window and holes are centered opposite the rear seam. The three small U-shaped flaps at the overlap tuck through the receiving slits to avoid adhesive. Test this seam on a scrap; trim/flap length depends on material compression. Thick foamcore may need its seam area locally thinned to interlock.
+
+For thickness t, the centerline developed circumference is `2*pi*(77-t/2)` mm: 480.664 mm for 1 mm sheet or 468.097 mm for 5 mm sheet, plus the 15 mm seam overlap. The display opening is 55.5 × 31.5 mm in the flat template, with its lower edge 32.5 mm above the sleeve bottom. Two 4.5 mm clearance holes sit 49 mm above the bottom, at approximately ±29.7 mm arc distance from the front center. The slightly wider flat window accommodates bending. Dry-fit the bezel and mark final holes against the real parts before cutting finished material.
+
+Curve the sheet with its outer face continuous. Foamcore needs closely spaced scores or kerfs on the inside to bend; make a scrap bend first. Thin cardboard requires folded edge shims to fill the ring channels and resist ovalizing. Double-wall cardboard or a braced sleeve will generally be stiffer than thin single sheet. The head load passes through the open upper support, top rim and sleeve to the bottom rim; sleeve stiffness is part of the structure.
+
+[Optional floor/top infill template](../templates/Optional_Floor_and_Soil_1to1.svg): the 137.6 mm floor rests on the bottom lip; approximately 2 mm sheet fits below the tray. The 157 mm top infill covers the spokes around the offset stem; trim around posts/wires as needed. These are cosmetic/non-electrical sheet inserts, not replacements for C10/C11. Route leads through the rear opening and stem.
+
+Check the friction fit, seam and resistance to tipping with the tongue fully extended. Add secured insulated ballast or internal cardboard bracing if needed. Cardboard compression, humidity and repeated use have not been physically tested. Do not lift the completed clock by its plant head.

@@ -1,0 +1,22 @@
+{
+  "module_mm": 1,
+  "pressure_angle_deg": 25,
+  "center_distance_mm": 40,
+  "pinion_teeth": 16,
+  "large_pitch_circle_teeth": 64,
+  "retained_sector_teeth": 16,
+  "sector_deg": [
+    45,
+    135
+  ],
+  "contact_line_in_sector_coordinates_deg": [
+    90,
+    102.5
+  ],
+  "minimum_line_to_cut_edge_deg": 32.5,
+  "ideal_standard_transverse_contact_ratio": 1.465250109860769,
+  "ratio": 4,
+  "gear_inward_shift_mm": 21.4,
+  "sector_volume_cm3": 7.2339619524252905,
+  "physical_tested": false
+}

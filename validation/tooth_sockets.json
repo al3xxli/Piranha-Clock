@@ -1,0 +1,240 @@
+[
+  {
+    "id": "U01",
+    "jaw": "C01",
+    "origin": [
+      71.72601826260568,
+      5.926590506840755,
+      28.0
+    ],
+    "angle_deg": 5.0,
+    "upper": true,
+    "thickness_mm": 3,
+    "root_width_mm": 5,
+    "slot_width_mm": 5.4,
+    "barb_width_mm": 6.1,
+    "detent_pocket_width_mm": 6.4,
+    "root_length_mm": 7
+  },
+  {
+    "id": "U02",
+    "jaw": "C01",
+    "origin": [
+      65.2541606666388,
+      28.73804179836756,
+      28.0
+    ],
+    "angle_deg": 25.0,
+    "upper": true,
+    "thickness_mm": 3,
+    "root_width_mm": 5,
+    "slot_width_mm": 5.4,
+    "barb_width_mm": 6.1,
+    "detent_pocket_width_mm": 6.4,
+    "root_length_mm": 7
+  },
+  {
+    "id": "U03",
+    "jaw": "C01",
+    "origin": [
+      50.91168824543143,
+      48.083261120685236,
+      28.0
+    ],
+    "angle_deg": 45.0,
+    "upper": true,
+    "thickness_mm": 3,
+    "root_width_mm": 5,
+    "slot_width_mm": 5.4,
+    "barb_width_mm": 6.1,
+    "detent_pocket_width_mm": 6.4,
+    "root_length_mm": 7
+  },
+  {
+    "id": "U04",
+    "jaw": "C01",
+    "origin": [
+      30.42851484533036,
+      61.62892951849219,
+      28.0
+    ],
+    "angle_deg": 65.0,
+    "upper": true,
+    "thickness_mm": 3,
+    "root_width_mm": 5,
+    "slot_width_mm": 5.4,
+    "barb_width_mm": 6.1,
+    "detent_pocket_width_mm": 6.4,
+    "root_length_mm": 7
+  },
+  {
+    "id": "U05",
+    "jaw": "C01",
+    "origin": [
+      -30.42851484533035,
+      61.6289295184922,
+      28.0
+    ],
+    "angle_deg": 115.0,
+    "upper": true,
+    "thickness_mm": 3,
+    "root_width_mm": 5,
+    "slot_width_mm": 5.4,
+    "barb_width_mm": 6.1,
+    "detent_pocket_width_mm": 6.4,
+    "root_length_mm": 7
+  },
+  {
+    "id": "U06",
+    "jaw": "C01",
+    "origin": [
+      -50.91168824543142,
+      48.083261120685236,
+      28.0
+    ],
+    "angle_deg": 135.0,
+    "upper": true,
+    "thickness_mm": 3,
+    "root_width_mm": 5,
+    "slot_width_mm": 5.4,
+    "barb_width_mm": 6.1,
+    "detent_pocket_width_mm": 6.4,
+    "root_length_mm": 7
+  },
+  {
+    "id": "U07",
+    "jaw": "C01",
+    "origin": [
+      -65.2541606666388,
+      28.738041798367565,
+      28.0
+    ],
+    "angle_deg": 155.0,
+    "upper": true,
+    "thickness_mm": 3,
+    "root_width_mm": 5,
+    "slot_width_mm": 5.4,
+    "barb_width_mm": 6.1,
+    "detent_pocket_width_mm": 6.4,
+    "root_length_mm": 7
+  },
+  {
+    "id": "U08",
+    "jaw": "C01",
+    "origin": [
+      -71.72601826260568,
+      5.926590506840757,
+      28.0
+    ],
+    "angle_deg": 175.0,
+    "upper": true,
+    "thickness_mm": 3,
+    "root_width_mm": 5,
+    "slot_width_mm": 5.4,
+    "barb_width_mm": 6.1,
+    "detent_pocket_width_mm": 6.4,
+    "root_length_mm": 7
+  },
+  {
+    "id": "L01",
+    "jaw": "C02",
+    "origin": [
+      65.68295618765664,
+      17.59969506697141,
+      -1.0
+    ],
+    "angle_deg": 14.999999999999998,
+    "upper": false,
+    "thickness_mm": 3,
+    "root_width_mm": 5,
+    "slot_width_mm": 5.4,
+    "barb_width_mm": 6.1,
+    "detent_pocket_width_mm": 6.4,
+    "root_length_mm": 7
+  },
+  {
+    "id": "L02",
+    "jaw": "C02",
+    "origin": [
+      55.70233901165144,
+      39.003197671871135,
+      -1.0
+    ],
+    "angle_deg": 35.0,
+    "upper": false,
+    "thickness_mm": 3,
+    "root_width_mm": 5,
+    "slot_width_mm": 5.4,
+    "barb_width_mm": 6.1,
+    "detent_pocket_width_mm": 6.4,
+    "root_length_mm": 7
+  },
+  {
+    "id": "L03",
+    "jaw": "C02",
+    "origin": [
+      39.003197671871135,
+      55.70233901165144,
+      -1.0
+    ],
+    "angle_deg": 55.0,
+    "upper": false,
+    "thickness_mm": 3,
+    "root_width_mm": 5,
+    "slot_width_mm": 5.4,
+    "barb_width_mm": 6.1,
+    "detent_pocket_width_mm": 6.4,
+    "root_length_mm": 7
+  },
+  {
+    "id": "L04",
+    "jaw": "C02",
+    "origin": [
+      -39.00319767187114,
+      55.70233901165143,
+      -1.0
+    ],
+    "angle_deg": 125.00000000000001,
+    "upper": false,
+    "thickness_mm": 3,
+    "root_width_mm": 5,
+    "slot_width_mm": 5.4,
+    "barb_width_mm": 6.1,
+    "detent_pocket_width_mm": 6.4,
+    "root_length_mm": 7
+  },
+  {
+    "id": "L05",
+    "jaw": "C02",
+    "origin": [
+      -55.702339011651446,
+      39.00319767187112,
+      -1.0
+    ],
+    "angle_deg": 145.0,
+    "upper": false,
+    "thickness_mm": 3,
+    "root_width_mm": 5,
+    "slot_width_mm": 5.4,
+    "barb_width_mm": 6.1,
+    "detent_pocket_width_mm": 6.4,
+    "root_length_mm": 7
+  },
+  {
+    "id": "L06",
+    "jaw": "C02",
+    "origin": [
+      -65.68295618765664,
+      17.599695066971428,
+      -1.0
+    ],
+    "angle_deg": 165.0,
+    "upper": false,
+    "thickness_mm": 3,
+    "root_width_mm": 5,
+    "slot_width_mm": 5.4,
+    "barb_width_mm": 6.1,
+    "detent_pocket_width_mm": 6.4,
+    "root_length_mm": 7
+  }
+]

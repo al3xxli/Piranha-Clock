@@ -1,0 +1,122 @@
+{
+  "status": "Custom printed hubs; user supplied diameter ranges and exposed heights; spline tooth counts and flank shape remain unconfirmed",
+  "user_measurements": {
+    "MG995": {
+      "diameter_range_mm": [
+        5.5,
+        6
+      ],
+      "height_mm": 4
+    },
+    "MG90S": {
+      "diameter_range_mm": [
+        4.5,
+        5
+      ],
+      "height_range_mm": [
+        4.5,
+        5
+      ]
+    }
+  },
+  "trial_profiles": {
+    "MG995": {
+      "teeth": 25,
+      "major_diameter_mm": 6,
+      "minor_diameter_mm": 5.36
+    },
+    "MG90S": {
+      "teeth": 21,
+      "major_diameter_mm": 4.8,
+      "minor_diameter_mm": 4.24
+    }
+  },
+  "samples": [
+    {
+      "id": "F11",
+      "servo": "MG995",
+      "trial_teeth": 25,
+      "major_diameter_mm": 5.6,
+      "identification": "1 dots"
+    },
+    {
+      "id": "F12",
+      "servo": "MG995",
+      "trial_teeth": 25,
+      "major_diameter_mm": 5.85,
+      "identification": "2 dots"
+    },
+    {
+      "id": "F13",
+      "servo": "MG995",
+      "trial_teeth": 25,
+      "major_diameter_mm": 6.1,
+      "identification": "3 dots"
+    },
+    {
+      "id": "F14",
+      "servo": "MG995",
+      "trial_teeth": 24,
+      "major_diameter_mm": 5.6,
+      "identification": "1 dots plus bar"
+    },
+    {
+      "id": "F15",
+      "servo": "MG995",
+      "trial_teeth": 24,
+      "major_diameter_mm": 5.85,
+      "identification": "2 dots plus bar"
+    },
+    {
+      "id": "F16",
+      "servo": "MG995",
+      "trial_teeth": 24,
+      "major_diameter_mm": 6.1,
+      "identification": "3 dots plus bar"
+    },
+    {
+      "id": "F21",
+      "servo": "MG90S",
+      "trial_teeth": 21,
+      "major_diameter_mm": 4.6,
+      "identification": "1 dots"
+    },
+    {
+      "id": "F22",
+      "servo": "MG90S",
+      "trial_teeth": 21,
+      "major_diameter_mm": 4.85,
+      "identification": "2 dots"
+    },
+    {
+      "id": "F23",
+      "servo": "MG90S",
+      "trial_teeth": 21,
+      "major_diameter_mm": 5.1,
+      "identification": "3 dots"
+    },
+    {
+      "id": "F24",
+      "servo": "MG90S",
+      "trial_teeth": 20,
+      "major_diameter_mm": 4.6,
+      "identification": "1 dots plus bar"
+    },
+    {
+      "id": "F25",
+      "servo": "MG90S",
+      "trial_teeth": 20,
+      "major_diameter_mm": 4.85,
+      "identification": "2 dots plus bar"
+    },
+    {
+      "id": "F26",
+      "servo": "MG90S",
+      "trial_teeth": 20,
+      "major_diameter_mm": 5.1,
+      "identification": "3 dots plus bar"
+    }
+  ],
+  "retention": "Removable stationary keepers constrain axial withdrawal; hex insert exteriors carry torque into carrier and drum.",
+  "physical_tested": false
+}

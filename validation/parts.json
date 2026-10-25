@@ -1,0 +1,2623 @@
+[
+  {
+    "id": "C09",
+    "name": "Bottom rim - 5.4 mm sleeve channel",
+    "color": "pipe",
+    "group": "fixed",
+    "variant": "common",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "print_bbox_min_mm": [
+      -80.0,
+      -80.0,
+      0.0
+    ],
+    "size_mm": [
+      160.0,
+      160.0,
+      14.0
+    ],
+    "volume_cm3": 47.54798752760005,
+    "stl": "stl/C09.stl",
+    "triangles": 4804,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 4804
+  },
+  {
+    "id": "C10",
+    "name": "Open electronics tray with PCB edge rails",
+    "color": "mech",
+    "group": "fixed",
+    "variant": "common",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "print_bbox_min_mm": [
+      -53.0,
+      -56.0,
+      4.0
+    ],
+    "size_mm": [
+      106.0,
+      122.0,
+      14.5
+    ],
+    "volume_cm3": 13.599558963272141,
+    "stl": "stl/C10.stl",
+    "triangles": 1584,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 1584
+  },
+  {
+    "id": "C11",
+    "name": "Open three-spoke stem support - optional cardboard soil infill",
+    "color": "soil",
+    "group": "fixed",
+    "variant": "common",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "print_bbox_min_mm": [
+      -79.0,
+      -79.0,
+      103.4
+    ],
+    "size_mm": [
+      158.0,
+      158.0,
+      4.4
+    ],
+    "volume_cm3": 30.330619531738634,
+    "stl": "stl/C11.stl",
+    "triangles": 4188,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 4188
+  },
+  {
+    "id": "C12",
+    "name": "Hollow ribbed stem with cable passage and leaf sockets",
+    "color": "green",
+    "group": "fixed",
+    "variant": "common",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "print_bbox_min_mm": [
+      -32.0,
+      -84.0,
+      107.8
+    ],
+    "size_mm": [
+      64.0,
+      98.0,
+      133.2
+    ],
+    "volume_cm3": 91.3714687699736,
+    "stl": "stl/C12.stl",
+    "triangles": 53282,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 53282
+  },
+  {
+    "id": "C13",
+    "name": "Left veined serrated leaf - split press-fit tang",
+    "color": "leaf",
+    "group": "fixed",
+    "variant": "common",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "print_bbox_min_mm": [
+      -112.41906288758624,
+      -56.095473168545276,
+      160.0
+    ],
+    "size_mm": [
+      95.419,
+      45.067,
+      24.972
+    ],
+    "volume_cm3": 7.393860320448173,
+    "stl": "stl/C13.stl",
+    "triangles": 16306,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 16306
+  },
+  {
+    "id": "C14",
+    "name": "Right veined serrated leaf - split press-fit tang",
+    "color": "leaf",
+    "group": "fixed",
+    "variant": "common",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "print_bbox_min_mm": [
+      17.0,
+      -64.09547316854528,
+      182.0
+    ],
+    "size_mm": [
+      95.419,
+      45.067,
+      24.972
+    ],
+    "volume_cm3": 7.393132853330271,
+    "stl": "stl/C14.stl",
+    "triangles": 16342,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 16342
+  },
+  {
+    "id": "C15",
+    "name": "Removable clock bezel and adjustable TM1637 pocket",
+    "color": "gold",
+    "group": "fixed",
+    "variant": "common",
+    "orientation": [
+      90,
+      0,
+      0
+    ],
+    "print_bbox_min_mm": [
+      -34.0,
+      -72.0,
+      59.8
+    ],
+    "size_mm": [
+      68.0,
+      40.0,
+      20.6
+    ],
+    "volume_cm3": 12.386708296177469,
+    "stl": "stl/C15.stl",
+    "triangles": 790,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 790
+  },
+  {
+    "id": "C16",
+    "name": "Display retaining clamp 1",
+    "color": "mech",
+    "group": "fixed",
+    "variant": "common",
+    "orientation": [
+      90,
+      0,
+      0
+    ],
+    "print_bbox_min_mm": [
+      -33.0,
+      -60.0,
+      56.5
+    ],
+    "size_mm": [
+      15.0,
+      16.0,
+      9.0
+    ],
+    "volume_cm3": 1.4435637073822292,
+    "stl": "stl/C16.stl",
+    "triangles": 512,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 512
+  },
+  {
+    "id": "C17",
+    "name": "Display retaining clamp 2",
+    "color": "mech",
+    "group": "fixed",
+    "variant": "common",
+    "orientation": [
+      90,
+      0,
+      0
+    ],
+    "print_bbox_min_mm": [
+      18.0,
+      -60.0,
+      56.5
+    ],
+    "size_mm": [
+      15.0,
+      16.0,
+      9.0
+    ],
+    "volume_cm3": 1.4435637073822294,
+    "stl": "stl/C17.stl",
+    "triangles": 520,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 520
+  },
+  {
+    "id": "U01",
+    "name": "Upper flat snap-in tooth 1",
+    "color": "bone",
+    "group": "upper",
+    "variant": "common",
+    "orientation": [
+      90,
+      0,
+      -5.0
+    ],
+    "flat_tooth_angle_deg": 5.0,
+    "flat_tooth_upper": true,
+    "print_bbox_min_mm": [
+      61.284251866056835,
+      -35.0,
+      -1.847296355333862
+    ],
+    "size_mm": [
+      16.413,
+      34.497,
+      3.0
+    ],
+    "volume_cm3": 0.552300758187054,
+    "stl": "stl/U01.stl",
+    "triangles": 1300,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 1300
+  },
+  {
+    "id": "U02",
+    "name": "Upper flat snap-in tooth 2",
+    "color": "bone",
+    "group": "upper",
+    "variant": "common",
+    "orientation": [
+      90,
+      0,
+      -25.0
+    ],
+    "flat_tooth_angle_deg": 25.0,
+    "flat_tooth_upper": true,
+    "print_bbox_min_mm": [
+      57.117167122024235,
+      -35.0,
+      -3.032088886237961
+    ],
+    "size_mm": [
+      19.912,
+      36.467,
+      3.0
+    ],
+    "volume_cm3": 0.5958231488690892,
+    "stl": "stl/U02.stl",
+    "triangles": 1294,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 1294
+  },
+  {
+    "id": "U03",
+    "name": "Upper flat snap-in tooth 3",
+    "color": "bone",
+    "group": "upper",
+    "variant": "common",
+    "orientation": [
+      90,
+      0,
+      -45.0
+    ],
+    "flat_tooth_angle_deg": 45.0,
+    "flat_tooth_upper": true,
+    "print_bbox_min_mm": [
+      59.702411265989085,
+      -35.0,
+      -3.500000000000007
+    ],
+    "size_mm": [
+      16.047,
+      33.277,
+      3.0
+    ],
+    "volume_cm3": 0.5308135521384884,
+    "stl": "stl/U03.stl",
+    "triangles": 1288,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 1288
+  },
+  {
+    "id": "U04",
+    "name": "Upper flat snap-in tooth 4",
+    "color": "bone",
+    "group": "upper",
+    "variant": "common",
+    "orientation": [
+      90,
+      0,
+      -65.0
+    ],
+    "flat_tooth_angle_deg": 65.0,
+    "flat_tooth_upper": true,
+    "print_bbox_min_mm": [
+      58.07170179391487,
+      -35.0,
+      -3.032088886237961
+    ],
+    "size_mm": [
+      16.387,
+      33.41,
+      3.0
+    ],
+    "volume_cm3": 0.5348904750880684,
+    "stl": "stl/U04.stl",
+    "triangles": 1294,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 1294
+  },
+  {
+    "id": "U05",
+    "name": "Upper flat snap-in tooth 5",
+    "color": "bone",
+    "group": "upper",
+    "variant": "common",
+    "orientation": [
+      90,
+      0,
+      -115.0
+    ],
+    "flat_tooth_angle_deg": 115.0,
+    "flat_tooth_upper": true,
+    "print_bbox_min_mm": [
+      58.198091210047004,
+      -35.0,
+      0.03208888623794337
+    ],
+    "size_mm": [
+      16.26,
+      36.405,
+      3.0
+    ],
+    "volume_cm3": 0.5809245561126074,
+    "stl": "stl/U05.stl",
+    "triangles": 1294,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 1294
+  },
+  {
+    "id": "U06",
+    "name": "Upper flat snap-in tooth 6",
+    "color": "bone",
+    "group": "upper",
+    "variant": "common",
+    "orientation": [
+      90,
+      0,
+      -135.0
+    ],
+    "flat_tooth_angle_deg": 135.0,
+    "flat_tooth_upper": true,
+    "print_bbox_min_mm": [
+      59.71302159272719,
+      -35.0,
+      0.4999999999999929
+    ],
+    "size_mm": [
+      16.036,
+      34.337,
+      3.0
+    ],
+    "volume_cm3": 0.5473978141351636,
+    "stl": "stl/U06.stl",
+    "triangles": 1290,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 1290
+  },
+  {
+    "id": "U07",
+    "name": "Upper flat snap-in tooth 7",
+    "color": "bone",
+    "group": "upper",
+    "variant": "common",
+    "orientation": [
+      90,
+      0,
+      -155.0
+    ],
+    "flat_tooth_angle_deg": 155.0,
+    "flat_tooth_upper": true,
+    "print_bbox_min_mm": [
+      56.85941701135636,
+      -35.0,
+      0.032088886237950476
+    ],
+    "size_mm": [
+      20.169,
+      32.784,
+      3.0
+    ],
+    "volume_cm3": 0.540600986558291,
+    "stl": "stl/U07.stl",
+    "triangles": 1306,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 1306
+  },
+  {
+    "id": "U08",
+    "name": "Upper flat snap-in tooth 8",
+    "color": "bone",
+    "group": "upper",
+    "variant": "common",
+    "orientation": [
+      90,
+      0,
+      -175.0
+    ],
+    "flat_tooth_angle_deg": 175.0,
+    "flat_tooth_upper": true,
+    "print_bbox_min_mm": [
+      60.88925518632648,
+      -35.0,
+      -1.1527036446661425
+    ],
+    "size_mm": [
+      16.808,
+      35.833,
+      3.0
+    ],
+    "volume_cm3": 0.5747335240781463,
+    "stl": "stl/U08.stl",
+    "triangles": 1302,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 1302
+  },
+  {
+    "id": "C01",
+    "name": "Upper skull and plump lip with eight keyed tooth sockets",
+    "color": "red",
+    "group": "upper",
+    "variant": "common",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "print_bbox_min_mm": [
+      -90.51705288624876,
+      -84.5398744423877,
+      16.453670699391658
+    ],
+    "size_mm": [
+      181.346,
+      173.043,
+      74.628
+    ],
+    "volume_cm3": 191.1698128364455,
+    "stl": "stl/C01.stl",
+    "triangles": 135406,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 135406
+  },
+  {
+    "id": "L01",
+    "name": "Lower flat snap-in tooth 1",
+    "color": "bone",
+    "group": "lower",
+    "variant": "common",
+    "orientation": [
+      -90,
+      0,
+      -14.999999999999998
+    ],
+    "flat_tooth_angle_deg": 14.999999999999998,
+    "flat_tooth_upper": false,
+    "print_bbox_min_mm": [
+      62.57058696628479,
+      -19.201570056398907,
+      -1.5000000000000036
+    ],
+    "size_mm": [
+      10.868,
+      27.202,
+      3.0
+    ],
+    "volume_cm3": 0.40431151951062505,
+    "stl": "stl/L01.stl",
+    "triangles": 1388,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 1388
+  },
+  {
+    "id": "L02",
+    "name": "Lower flat snap-in tooth 2",
+    "color": "bone",
+    "group": "lower",
+    "variant": "common",
+    "orientation": [
+      -90,
+      0,
+      -35.0
+    ],
+    "flat_tooth_angle_deg": 35.0,
+    "flat_tooth_upper": false,
+    "print_bbox_min_mm": [
+      62.560791919061586,
+      -16.934748578961777,
+      -1.5
+    ],
+    "size_mm": [
+      10.888,
+      24.935,
+      3.0
+    ],
+    "volume_cm3": 0.3686361069721294,
+    "stl": "stl/L02.stl",
+    "triangles": 1440,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 1440
+  },
+  {
+    "id": "L03",
+    "name": "Lower flat snap-in tooth 3",
+    "color": "bone",
+    "group": "lower",
+    "variant": "common",
+    "orientation": [
+      -90,
+      0,
+      -55.0
+    ],
+    "flat_tooth_angle_deg": 55.0,
+    "flat_tooth_upper": false,
+    "print_bbox_min_mm": [
+      62.56364158411775,
+      -15.289565741413742,
+      -1.5000000000000107
+    ],
+    "size_mm": [
+      10.885,
+      23.29,
+      3.0
+    ],
+    "volume_cm3": 0.34259527344752516,
+    "stl": "stl/L03.stl",
+    "triangles": 1432,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 1432
+  },
+  {
+    "id": "L04",
+    "name": "Lower flat snap-in tooth 4",
+    "color": "bone",
+    "group": "lower",
+    "variant": "common",
+    "orientation": [
+      -90,
+      0,
+      -125.00000000000001
+    ],
+    "flat_tooth_angle_deg": 125.00000000000001,
+    "flat_tooth_upper": false,
+    "print_bbox_min_mm": [
+      62.56171770360518,
+      -17.974491858912756,
+      -1.500000000000007
+    ],
+    "size_mm": [
+      10.887,
+      25.974,
+      3.0
+    ],
+    "volume_cm3": 0.3851458718949133,
+    "stl": "stl/L04.stl",
+    "triangles": 1414,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 1414
+  },
+  {
+    "id": "L05",
+    "name": "Lower flat snap-in tooth 5",
+    "color": "bone",
+    "group": "lower",
+    "variant": "common",
+    "orientation": [
+      -90,
+      0,
+      -145.0
+    ],
+    "flat_tooth_angle_deg": 145.0,
+    "flat_tooth_upper": false,
+    "print_bbox_min_mm": [
+      62.55907637847676,
+      -18.915482552630156,
+      -1.499999999999993
+    ],
+    "size_mm": [
+      10.89,
+      26.915,
+      3.0
+    ],
+    "volume_cm3": 0.3995759758514584,
+    "stl": "stl/L05.stl",
+    "triangles": 1414,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 1414
+  },
+  {
+    "id": "L06",
+    "name": "Lower flat snap-in tooth 6",
+    "color": "bone",
+    "group": "lower",
+    "variant": "common",
+    "orientation": [
+      -90,
+      0,
+      -165.0
+    ],
+    "flat_tooth_angle_deg": 165.0,
+    "flat_tooth_upper": false,
+    "print_bbox_min_mm": [
+      62.57150170444373,
+      -15.984214987510242,
+      -1.5000000000000213
+    ],
+    "size_mm": [
+      10.867,
+      23.984,
+      3.0
+    ],
+    "volume_cm3": 0.3540494315110181,
+    "stl": "stl/L06.stl",
+    "triangles": 1442,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 1442
+  },
+  {
+    "id": "C02",
+    "name": "Lower jaw and tongue tray with six keyed tooth sockets",
+    "color": "jaw",
+    "group": "lower",
+    "variant": "common",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "print_bbox_min_mm": [
+      -80.4348433888435,
+      -64.0,
+      -48.135398504709926
+    ],
+    "size_mm": [
+      161.2,
+      147.003,
+      55.421
+    ],
+    "volume_cm3": 133.3105439974621,
+    "stl": "stl/C02.stl",
+    "triangles": 79762,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.001,
+    "stl_triangles": 75644
+  },
+  {
+    "id": "C04",
+    "name": "Stationary twin hinge frame and MG995 cradle",
+    "color": "gums",
+    "group": "head",
+    "variant": "common",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "print_bbox_min_mm": [
+      -38.0,
+      -75.5,
+      -44.5
+    ],
+    "size_mm": [
+      91.0,
+      63.5,
+      64.5
+    ],
+    "volume_cm3": 38.6473751064255,
+    "stl": "stl/C04.stl",
+    "triangles": 14266,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.001,
+    "stl_triangles": 6248
+  },
+  {
+    "id": "G00",
+    "name": "Upper carrier with integral pinion and custom keyed drive hub",
+    "color": "gums",
+    "group": "upper",
+    "variant": "common",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "print_bbox_min_mm": [
+      -54.0,
+      -68.5,
+      -2.0
+    ],
+    "size_mm": [
+      114.0,
+      94.5,
+      21.6
+    ],
+    "volume_cm3": 17.278523967358712,
+    "stl": "stl/G00.stl",
+    "triangles": 5628,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 5628
+  },
+  {
+    "id": "G02",
+    "name": "Quarter sector of 64 tooth gear - 16 retained teeth",
+    "color": "gold",
+    "group": "lower",
+    "variant": "common",
+    "orientation": [
+      0,
+      90,
+      0
+    ],
+    "print_bbox_min_mm": [
+      -46.0,
+      -72.34265729784966,
+      39.0
+    ],
+    "size_mm": [
+      46.971,
+      44.685,
+      6.0
+    ],
+    "volume_cm3": 7.2339619524252905,
+    "stl": "stl/G02.stl",
+    "triangles": 2942,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 2942
+  },
+  {
+    "id": "C18",
+    "name": "Push-pin cheek and MG995 horn axial keeper",
+    "color": "jaw",
+    "group": "head",
+    "variant": "common",
+    "orientation": [
+      0,
+      90,
+      0
+    ],
+    "print_bbox_min_mm": [
+      -46.69177433223611,
+      -79.62685721025962,
+      39.0
+    ],
+    "size_mm": [
+      66.192,
+      52.892,
+      21.126
+    ],
+    "volume_cm3": 7.81670335231634,
+    "stl": "stl/C18.stl",
+    "triangles": 8924,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 8924
+  },
+  {
+    "id": "A01",
+    "name": "Captive print-in-place tongue section 1",
+    "color": "tongue",
+    "group": "section",
+    "variant": "common",
+    "orientation": [
+      0,
+      -90,
+      0
+    ],
+    "section_index": 0,
+    "print_assembly": "PIP_TONGUE",
+    "print_bbox_min_mm": [
+      -7.95,
+      -7.0,
+      -18.0
+    ],
+    "size_mm": [
+      15.8,
+      32.1,
+      36.0
+    ],
+    "volume_cm3": 4.447881061099035,
+    "stl": "stl/Tongue_Print_in_Place.stl",
+    "triangles": 7192,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 7192
+  },
+  {
+    "id": "A02",
+    "name": "Captive print-in-place tongue section 2",
+    "color": "tongue",
+    "group": "section",
+    "variant": "common",
+    "orientation": [
+      0,
+      -90,
+      0
+    ],
+    "section_index": 1,
+    "print_assembly": "PIP_TONGUE",
+    "print_bbox_min_mm": [
+      -14.08007069309031,
+      16.0,
+      -18.0
+    ],
+    "size_mm": [
+      20.08,
+      29.549,
+      36.0
+    ],
+    "volume_cm3": 4.853828804304383,
+    "stl": "stl/Tongue_Print_in_Place.stl",
+    "triangles": 7660,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 7660
+  },
+  {
+    "id": "A03",
+    "name": "Captive print-in-place tongue section 3",
+    "color": "tongue",
+    "group": "section",
+    "variant": "common",
+    "orientation": [
+      0,
+      -90,
+      0
+    ],
+    "section_index": 2,
+    "print_assembly": "PIP_TONGUE",
+    "print_bbox_min_mm": [
+      -27.07538469813602,
+      36.32534971524831,
+      -18.0
+    ],
+    "size_mm": [
+      24.656,
+      26.471,
+      35.0
+    ],
+    "volume_cm3": 4.7901240472960716,
+    "stl": "stl/Tongue_Print_in_Place.stl",
+    "triangles": 7678,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 7678
+  },
+  {
+    "id": "A04",
+    "name": "Captive print-in-place tongue section 4",
+    "color": "tongue",
+    "group": "section",
+    "variant": "common",
+    "orientation": [
+      0,
+      -90,
+      0
+    ],
+    "section_index": 3,
+    "print_assembly": "PIP_TONGUE",
+    "print_bbox_min_mm": [
+      -47.40073441338433,
+      51.88169890135235,
+      -18.0
+    ],
+    "size_mm": [
+      29.425,
+      20.277,
+      34.0
+    ],
+    "volume_cm3": 4.726166537873295,
+    "stl": "stl/Tongue_Print_in_Place.stl",
+    "triangles": 7904,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 7904
+  },
+  {
+    "id": "A05",
+    "name": "Captive print-in-place tongue section 5",
+    "color": "tongue",
+    "group": "section",
+    "variant": "common",
+    "orientation": [
+      0,
+      -90,
+      0
+    ],
+    "section_index": 4,
+    "print_assembly": "PIP_TONGUE",
+    "print_bbox_min_mm": [
+      -69.40073441338433,
+      58.35073441338433,
+      -18.0
+    ],
+    "size_mm": [
+      31.1,
+      15.8,
+      33.999
+    ],
+    "volume_cm3": 4.629580617091799,
+    "stl": "stl/Tongue_Print_in_Place.stl",
+    "triangles": 7694,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 7694
+  },
+  {
+    "id": "A06",
+    "name": "Captive print-in-place tongue section 6",
+    "color": "tongue",
+    "group": "section",
+    "variant": "common",
+    "orientation": [
+      0,
+      -90,
+      0
+    ],
+    "section_index": 5,
+    "print_assembly": "PIP_TONGUE",
+    "print_bbox_min_mm": [
+      -89.84988177757153,
+      52.22066372029403,
+      -18.0
+    ],
+    "size_mm": [
+      29.549,
+      20.08,
+      33.999
+    ],
+    "volume_cm3": 4.4992035936413375,
+    "stl": "stl/Tongue_Print_in_Place.stl",
+    "triangles": 7552,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 7552
+  },
+  {
+    "id": "A07",
+    "name": "Captive print-in-place tongue section 7",
+    "color": "tongue",
+    "group": "section",
+    "variant": "common",
+    "orientation": [
+      0,
+      -90,
+      0
+    ],
+    "section_index": 6,
+    "print_assembly": "PIP_TONGUE",
+    "print_bbox_min_mm": [
+      -105.50311453831819,
+      39.00466849166682,
+      -18.0
+    ],
+    "size_mm": [
+      24.877,
+      24.877,
+      31.6
+    ],
+    "volume_cm3": 3.8843334963570064,
+    "stl": "stl/Tongue_Print_in_Place.stl",
+    "triangles": 7348,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 7348
+  },
+  {
+    "id": "A08",
+    "name": "MG90S drum with custom keyed drive hub",
+    "color": "gold",
+    "group": "spool",
+    "variant": "common",
+    "orientation": [
+      0,
+      90,
+      0
+    ],
+    "print_bbox_min_mm": [
+      -31.3,
+      -24.5,
+      -42.0
+    ],
+    "size_mm": [
+      23.0,
+      23.0,
+      11.6
+    ],
+    "volume_cm3": 2.1182376526104103,
+    "stl": "stl/A08.stl",
+    "triangles": 1628,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 1628
+  },
+  {
+    "id": "A09",
+    "name": "Push-in fairlead and MG90S horn axial keeper",
+    "color": "mech",
+    "group": "lower",
+    "variant": "common",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "print_bbox_min_mm": [
+      35.0,
+      -18.0,
+      -24.8
+    ],
+    "size_mm": [
+      13.2,
+      22.2,
+      25.1
+    ],
+    "volume_cm3": 0.7543217201659664,
+    "stl": "stl/A09.stl",
+    "triangles": 1824,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 1824
+  },
+  {
+    "id": "B01",
+    "name": "Top rim - sleeve channel and stem-support ledge",
+    "color": "pipe",
+    "group": "fixed",
+    "variant": "common",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "print_bbox_min_mm": [
+      -83.0,
+      -83.0,
+      93.0
+    ],
+    "size_mm": [
+      166.0,
+      166.0,
+      20.0
+    ],
+    "volume_cm3": 65.18814618346524,
+    "stl": "stl/B01.stl",
+    "triangles": 5934,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 5934
+  },
+  {
+    "id": "R01",
+    "name": "Bottom tray to rim 1 - flat split push pin",
+    "color": "mech",
+    "group": "fixed",
+    "variant": "common",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "flat_pin_axis": "Z",
+    "print_bbox_min_mm": [
+      -51.5,
+      -14.040000000000001,
+      -41.5
+    ],
+    "size_mm": [
+      7.0,
+      11.84,
+      3.0
+    ],
+    "volume_cm3": 0.11916441897410424,
+    "stl": "stl/R01.stl",
+    "triangles": 652,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 652
+  },
+  {
+    "id": "R02",
+    "name": "Bottom tray to rim 2 - flat split push pin",
+    "color": "mech",
+    "group": "fixed",
+    "variant": "common",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "flat_pin_axis": "Z",
+    "print_bbox_min_mm": [
+      44.5,
+      -14.040000000000001,
+      -41.5
+    ],
+    "size_mm": [
+      7.0,
+      11.84,
+      3.0
+    ],
+    "volume_cm3": 0.11916441897410424,
+    "stl": "stl/R02.stl",
+    "triangles": 652,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 652
+  },
+  {
+    "id": "R03",
+    "name": "Bottom tray to rim 3 - flat split push pin",
+    "color": "mech",
+    "group": "fixed",
+    "variant": "common",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "flat_pin_axis": "Z",
+    "print_bbox_min_mm": [
+      -3.5,
+      -14.040000000000001,
+      59.5
+    ],
+    "size_mm": [
+      7.0,
+      11.84,
+      3.0
+    ],
+    "volume_cm3": 0.1191644189741042,
+    "stl": "stl/R03.stl",
+    "triangles": 652,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 652
+  },
+  {
+    "id": "R04",
+    "name": "Top support to rim 1 - flat split push pin",
+    "color": "mech",
+    "group": "fixed",
+    "variant": "common",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "flat_pin_axis": "Z",
+    "print_bbox_min_mm": [
+      50.56403492307346,
+      -108.84,
+      36.35604479916904
+    ],
+    "size_mm": [
+      7.0,
+      9.24,
+      3.0
+    ],
+    "volume_cm3": 0.09843485795285592,
+    "stl": "stl/R04.stl",
+    "triangles": 652,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 652
+  },
+  {
+    "id": "R05",
+    "name": "Top support to rim 2 - flat split push pin",
+    "color": "mech",
+    "group": "fixed",
+    "variant": "common",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "flat_pin_axis": "Z",
+    "print_bbox_min_mm": [
+      -57.564034923073464,
+      -108.84,
+      36.356044799169034
+    ],
+    "size_mm": [
+      7.0,
+      9.24,
+      3.0
+    ],
+    "volume_cm3": 0.0984348579528559,
+    "stl": "stl/R05.stl",
+    "triangles": 652,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 652
+  },
+  {
+    "id": "R06",
+    "name": "Top support to rim 3 - flat split push pin",
+    "color": "mech",
+    "group": "fixed",
+    "variant": "common",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "flat_pin_axis": "Z",
+    "print_bbox_min_mm": [
+      -3.500000000000012,
+      -108.84,
+      -67.5
+    ],
+    "size_mm": [
+      7.0,
+      9.24,
+      3.0
+    ],
+    "volume_cm3": 0.09843485795285586,
+    "stl": "stl/R06.stl",
+    "triangles": 652,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 652
+  },
+  {
+    "id": "R07",
+    "name": "Stem foot 1 - flat split push pin",
+    "color": "mech",
+    "group": "fixed",
+    "variant": "common",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "flat_pin_axis": "Z",
+    "print_bbox_min_mm": [
+      -29.5,
+      -115.04,
+      -19.5
+    ],
+    "size_mm": [
+      7.0,
+      13.44,
+      3.0
+    ],
+    "volume_cm3": 0.13635184114102622,
+    "stl": "stl/R07.stl",
+    "triangles": 652,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 652
+  },
+  {
+    "id": "R08",
+    "name": "Stem foot 2 - flat split push pin",
+    "color": "mech",
+    "group": "fixed",
+    "variant": "common",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "flat_pin_axis": "Z",
+    "print_bbox_min_mm": [
+      22.5,
+      -115.04,
+      -19.5
+    ],
+    "size_mm": [
+      7.0,
+      13.44,
+      3.0
+    ],
+    "volume_cm3": 0.13635184114102622,
+    "stl": "stl/R08.stl",
+    "triangles": 652,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 652
+  },
+  {
+    "id": "R09",
+    "name": "Stem foot 3 - flat split push pin",
+    "color": "mech",
+    "group": "fixed",
+    "variant": "common",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "flat_pin_axis": "Z",
+    "print_bbox_min_mm": [
+      -3.5,
+      -115.04,
+      6.5
+    ],
+    "size_mm": [
+      7.0,
+      13.44,
+      3.0
+    ],
+    "volume_cm3": 0.1363518411410263,
+    "stl": "stl/R09.stl",
+    "triangles": 652,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 652
+  },
+  {
+    "id": "R10",
+    "name": "Display sleeve sandwich 1 - flat split push pin",
+    "color": "mech",
+    "group": "fixed",
+    "variant": "common",
+    "orientation": [
+      90,
+      0,
+      0
+    ],
+    "flat_pin_axis": "Y",
+    "print_bbox_min_mm": [
+      -32.5,
+      -82.64,
+      -53.5
+    ],
+    "size_mm": [
+      7.0,
+      27.94,
+      3.0
+    ],
+    "volume_cm3": 0.29211285452875696,
+    "stl": "stl/R10.stl",
+    "triangles": 656,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 656
+  },
+  {
+    "id": "R11",
+    "name": "Display sleeve sandwich 2 - flat split push pin",
+    "color": "mech",
+    "group": "fixed",
+    "variant": "common",
+    "orientation": [
+      90,
+      0,
+      0
+    ],
+    "flat_pin_axis": "Y",
+    "print_bbox_min_mm": [
+      25.5,
+      -82.64,
+      -53.5
+    ],
+    "size_mm": [
+      7.0,
+      27.94,
+      3.0
+    ],
+    "volume_cm3": 0.29211285452875696,
+    "stl": "stl/R11.stl",
+    "triangles": 656,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 656
+  },
+  {
+    "id": "D01",
+    "name": "Display PCB edge shim 1",
+    "color": "mech",
+    "group": "fixed",
+    "variant": "common",
+    "orientation": [
+      90,
+      0,
+      0
+    ],
+    "print_bbox_min_mm": [
+      -23.5,
+      -63.0,
+      66.7
+    ],
+    "size_mm": [
+      2.0,
+      22.0,
+      2.6
+    ],
+    "volume_cm3": 0.07919999999999984,
+    "stl": "stl/D01.stl",
+    "triangles": 34,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 34
+  },
+  {
+    "id": "D02",
+    "name": "Display PCB edge shim 2",
+    "color": "mech",
+    "group": "fixed",
+    "variant": "common",
+    "orientation": [
+      90,
+      0,
+      0
+    ],
+    "print_bbox_min_mm": [
+      21.5,
+      -63.0,
+      66.7
+    ],
+    "size_mm": [
+      2.0,
+      22.0,
+      2.6
+    ],
+    "volume_cm3": 0.07919999999999984,
+    "stl": "stl/D02.stl",
+    "triangles": 34,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 34
+  },
+  {
+    "id": "A00",
+    "name": "Snap-in tongue mounting saddle",
+    "color": "mech",
+    "group": "lower",
+    "variant": "common",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "print_bbox_min_mm": [
+      -24.0,
+      5.4195564967175525,
+      -8.600000000000001
+    ],
+    "size_mm": [
+      66.5,
+      21.58,
+      24.939
+    ],
+    "volume_cm3": 4.061723640912672,
+    "stl": "stl/A00.stl",
+    "triangles": 1120,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 1120
+  },
+  {
+    "id": "R12",
+    "name": "Tongue saddle 1 - flat split push pin",
+    "color": "mech",
+    "group": "lower",
+    "variant": "common",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "flat_pin_axis": "Z",
+    "print_bbox_min_mm": [
+      -22.5,
+      3.0599999999999987,
+      10.5
+    ],
+    "size_mm": [
+      7.0,
+      11.74,
+      3.0
+    ],
+    "volume_cm3": 0.11809020508867163,
+    "stl": "stl/R12.stl",
+    "triangles": 652,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 652
+  },
+  {
+    "id": "R13",
+    "name": "Tongue saddle 2 - flat split push pin",
+    "color": "mech",
+    "group": "lower",
+    "variant": "common",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "flat_pin_axis": "Z",
+    "print_bbox_min_mm": [
+      35.5,
+      3.0600000000000023,
+      10.5
+    ],
+    "size_mm": [
+      7.0,
+      29.74,
+      3.0
+    ],
+    "volume_cm3": 0.31144870446654427,
+    "stl": "stl/R13.stl",
+    "triangles": 656,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 656
+  },
+  {
+    "id": "R14",
+    "name": "Tendon guide - flat split push pin",
+    "color": "mech",
+    "group": "lower",
+    "variant": "common",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "flat_pin_axis": "Z",
+    "print_bbox_min_mm": [
+      41.5,
+      3.3599999999999994,
+      -0.5
+    ],
+    "size_mm": [
+      7.0,
+      11.44,
+      3.0
+    ],
+    "volume_cm3": 0.11546756343237366,
+    "stl": "stl/R14.stl",
+    "triangles": 652,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 652
+  },
+  {
+    "id": "R15",
+    "name": "Head frame to stem 1 - flat split push pin",
+    "color": "mech",
+    "group": "fixed",
+    "variant": "common",
+    "orientation": [
+      180,
+      0,
+      0
+    ],
+    "flat_pin_axis": "NZ",
+    "print_bbox_min_mm": [
+      -20.5,
+      233.76,
+      57.5
+    ],
+    "size_mm": [
+      7.0,
+      23.04,
+      3.0
+    ],
+    "volume_cm3": 0.23947637414255882,
+    "stl": "stl/R15.stl",
+    "triangles": 656,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 656
+  },
+  {
+    "id": "R16",
+    "name": "Head frame to stem 2 - flat split push pin",
+    "color": "mech",
+    "group": "fixed",
+    "variant": "common",
+    "orientation": [
+      180,
+      0,
+      0
+    ],
+    "flat_pin_axis": "NZ",
+    "print_bbox_min_mm": [
+      13.5,
+      233.76,
+      57.5
+    ],
+    "size_mm": [
+      7.0,
+      23.04,
+      3.0
+    ],
+    "volume_cm3": 0.23947637414255885,
+    "stl": "stl/R16.stl",
+    "triangles": 656,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 656
+  },
+  {
+    "id": "R17",
+    "name": "Head frame to stem 3 - flat split push pin",
+    "color": "mech",
+    "group": "fixed",
+    "variant": "common",
+    "orientation": [
+      180,
+      0,
+      0
+    ],
+    "flat_pin_axis": "NZ",
+    "print_bbox_min_mm": [
+      -3.5,
+      233.76,
+      40.5
+    ],
+    "size_mm": [
+      7.0,
+      15.04,
+      3.0
+    ],
+    "volume_cm3": 0.15353926330794862,
+    "stl": "stl/R17.stl",
+    "triangles": 652,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 652
+  },
+  {
+    "id": "R18",
+    "name": "Skull to carrier 1 - flat split push pin",
+    "color": "mech",
+    "group": "upper",
+    "variant": "common",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "flat_pin_axis": "Z",
+    "print_bbox_min_mm": [
+      -51.5,
+      -27.24,
+      18.5
+    ],
+    "size_mm": [
+      7.0,
+      20.04,
+      3.0
+    ],
+    "volume_cm3": 0.20724995757957956,
+    "stl": "stl/R18.stl",
+    "triangles": 656,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 656
+  },
+  {
+    "id": "R19",
+    "name": "Skull to carrier 2 - flat split push pin",
+    "color": "mech",
+    "group": "upper",
+    "variant": "common",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "flat_pin_axis": "Z",
+    "print_bbox_min_mm": [
+      44.5,
+      -27.24,
+      18.5
+    ],
+    "size_mm": [
+      7.0,
+      20.04,
+      3.0
+    ],
+    "volume_cm3": 0.20724995757957954,
+    "stl": "stl/R19.stl",
+    "triangles": 656,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 656
+  },
+  {
+    "id": "R20",
+    "name": "Skull to carrier 3 - flat split push pin",
+    "color": "mech",
+    "group": "upper",
+    "variant": "common",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "flat_pin_axis": "Z",
+    "print_bbox_min_mm": [
+      -3.5,
+      -27.240000000000002,
+      -65.5
+    ],
+    "size_mm": [
+      7.0,
+      13.44,
+      3.0
+    ],
+    "volume_cm3": 0.13635184114102628,
+    "stl": "stl/R20.stl",
+    "triangles": 652,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 652
+  },
+  {
+    "id": "R21",
+    "name": "Upper right free-running pivot - flat split push pin",
+    "color": "mech",
+    "group": "head",
+    "variant": "common",
+    "orientation": [
+      0,
+      -90,
+      0
+    ],
+    "flat_pin_axis": "X",
+    "print_bbox_min_mm": [
+      -11.5,
+      -62.239999999999995,
+      -51.5
+    ],
+    "size_mm": [
+      7.0,
+      19.04,
+      3.0
+    ],
+    "volume_cm3": 0.19650781872525314,
+    "stl": "stl/R21.stl",
+    "triangles": 656,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 656
+  },
+  {
+    "id": "R22",
+    "name": "Lower right free-running pivot - flat split push pin",
+    "color": "mech",
+    "group": "head",
+    "variant": "common",
+    "orientation": [
+      0,
+      -90,
+      0
+    ],
+    "flat_pin_axis": "X",
+    "print_bbox_min_mm": [
+      28.5,
+      -62.239999999999995,
+      -51.5
+    ],
+    "size_mm": [
+      7.0,
+      19.04,
+      3.0
+    ],
+    "volume_cm3": 0.1965078187252532,
+    "stl": "stl/R22.stl",
+    "triangles": 656,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 656
+  },
+  {
+    "id": "R23",
+    "name": "Lower left free-running pivot - flat split push pin",
+    "color": "mech",
+    "group": "head",
+    "variant": "common",
+    "orientation": [
+      0,
+      -90,
+      0
+    ],
+    "flat_pin_axis": "X",
+    "print_bbox_min_mm": [
+      28.5,
+      27.76,
+      -51.5
+    ],
+    "size_mm": [
+      7.0,
+      25.44,
+      3.0
+    ],
+    "volume_cm3": 0.2652575073929413,
+    "stl": "stl/R23.stl",
+    "triangles": 656,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 656
+  },
+  {
+    "id": "R24",
+    "name": "Sector to jaw 1 - flat split push pin",
+    "color": "mech",
+    "group": "lower",
+    "variant": "common",
+    "orientation": [
+      0,
+      -90,
+      0
+    ],
+    "flat_pin_axis": "X",
+    "print_bbox_min_mm": [
+      29.2,
+      36.76,
+      -41.5
+    ],
+    "size_mm": [
+      5.6,
+      16.44,
+      3.0
+    ],
+    "volume_cm3": 0.14048739890959563,
+    "stl": "stl/R24.stl",
+    "triangles": 732,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 732
+  },
+  {
+    "id": "R25",
+    "name": "Sector to jaw 2 - flat split push pin",
+    "color": "mech",
+    "group": "lower",
+    "variant": "common",
+    "orientation": [
+      0,
+      -90,
+      0
+    ],
+    "flat_pin_axis": "X",
+    "print_bbox_min_mm": [
+      20.53974596215561,
+      36.76,
+      -56.5
+    ],
+    "size_mm": [
+      5.6,
+      16.44,
+      3.0
+    ],
+    "volume_cm3": 0.14048739890959566,
+    "stl": "stl/R25.stl",
+    "triangles": 732,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 732
+  },
+  {
+    "id": "R26",
+    "name": "Sector to jaw 3 - flat split push pin",
+    "color": "mech",
+    "group": "lower",
+    "variant": "common",
+    "orientation": [
+      0,
+      -90,
+      0
+    ],
+    "flat_pin_axis": "X",
+    "print_bbox_min_mm": [
+      37.860254037844385,
+      36.76,
+      -56.50000000000001
+    ],
+    "size_mm": [
+      5.6,
+      16.44,
+      3.0
+    ],
+    "volume_cm3": 0.14048739890959566,
+    "stl": "stl/R26.stl",
+    "triangles": 732,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 732
+  },
+  {
+    "id": "R27",
+    "name": "Removable cheek 1 - flat split push pin",
+    "color": "mech",
+    "group": "head",
+    "variant": "common",
+    "orientation": [
+      0,
+      -90,
+      0
+    ],
+    "flat_pin_axis": "X",
+    "print_bbox_min_mm": [
+      16.5,
+      27.76,
+      -72.5
+    ],
+    "size_mm": [
+      7.0,
+      31.04,
+      3.0
+    ],
+    "volume_cm3": 0.32541348497716804,
+    "stl": "stl/R27.stl",
+    "triangles": 656,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 656
+  },
+  {
+    "id": "R28",
+    "name": "Removable cheek 2 - flat split push pin",
+    "color": "mech",
+    "group": "head",
+    "variant": "common",
+    "orientation": [
+      0,
+      -90,
+      0
+    ],
+    "flat_pin_axis": "X",
+    "print_bbox_min_mm": [
+      36.5,
+      27.76,
+      -69.5
+    ],
+    "size_mm": [
+      7.0,
+      31.04,
+      3.0
+    ],
+    "volume_cm3": 0.3254134849771682,
+    "stl": "stl/R28.stl",
+    "triangles": 656,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 656
+  },
+  {
+    "id": "S01",
+    "name": "MG995 removable press-over cradle clip",
+    "color": "mech",
+    "group": "head",
+    "variant": "common",
+    "orientation": [
+      90,
+      0,
+      0
+    ],
+    "print_bbox_min_mm": [
+      -29.8,
+      -20.3,
+      -42.0
+    ],
+    "size_mm": [
+      42.1,
+      27.2,
+      8.0
+    ],
+    "volume_cm3": 1.4281600000000003,
+    "stl": "stl/S01.stl",
+    "triangles": 88,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 88
+  },
+  {
+    "id": "S02",
+    "name": "MG90S removable underside case retainer",
+    "color": "mech",
+    "group": "lower",
+    "variant": "common",
+    "orientation": [
+      90,
+      0,
+      0
+    ],
+    "print_bbox_min_mm": [
+      -0.8,
+      7.4,
+      1.0
+    ],
+    "size_mm": [
+      33.0,
+      23.4,
+      3.5
+    ],
+    "volume_cm3": 0.4771200000000002,
+    "stl": "stl/S02.stl",
+    "triangles": 70,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 70
+  },
+  {
+    "id": "H01",
+    "name": "Custom MG995 spline insert - trial 25T 6 mm",
+    "color": "gold",
+    "group": "upper",
+    "variant": "common",
+    "orientation": [
+      0,
+      -90,
+      0
+    ],
+    "print_bbox_min_mm": [
+      -13.26,
+      -54.555293623906145,
+      -38.6
+    ],
+    "size_mm": [
+      10.52,
+      9.111,
+      11.1
+    ],
+    "volume_cm3": 0.6982024486167775,
+    "stl": "stl/H01.stl",
+    "triangles": 564,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 564
+  },
+  {
+    "id": "H02",
+    "name": "Custom MG90S spline insert - trial 21T 4.8 mm",
+    "color": "gold",
+    "group": "spool",
+    "variant": "common",
+    "orientation": [
+      0,
+      90,
+      0
+    ],
+    "print_bbox_min_mm": [
+      -24.060000000000002,
+      -16.689268220121708,
+      -40.2
+    ],
+    "size_mm": [
+      8.52,
+      7.379,
+      9.8
+    ],
+    "volume_cm3": 0.37992684193600873,
+    "stl": "stl/H02.stl",
+    "triangles": 516,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 516
+  },
+  {
+    "id": "F11",
+    "name": "MG995 trial 25T / 5.60 mm bore",
+    "color": "mech",
+    "group": "test",
+    "variant": "common",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "print_bbox_min_mm": [
+      -5.26,
+      -4.555293623906147,
+      0.0
+    ],
+    "size_mm": [
+      10.52,
+      9.111,
+      11.1
+    ],
+    "volume_cm3": 0.7111543206831059,
+    "stl": "stl/F11.stl",
+    "triangles": 820,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 820
+  },
+  {
+    "id": "F12",
+    "name": "MG995 trial 25T / 5.85 mm bore",
+    "color": "mech",
+    "group": "test",
+    "variant": "common",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "print_bbox_min_mm": [
+      -5.26,
+      -4.555293623906147,
+      0.0
+    ],
+    "size_mm": [
+      10.52,
+      9.111,
+      11.1
+    ],
+    "volume_cm3": 0.7028560084765806,
+    "stl": "stl/F12.stl",
+    "triangles": 1076,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 1076
+  },
+  {
+    "id": "F13",
+    "name": "MG995 trial 25T / 6.10 mm bore",
+    "color": "mech",
+    "group": "test",
+    "variant": "common",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "print_bbox_min_mm": [
+      -5.26,
+      -4.555293623906147,
+      0.0
+    ],
+    "size_mm": [
+      10.52,
+      9.111,
+      11.1
+    ],
+    "volume_cm3": 0.6941950549331254,
+    "stl": "stl/F13.stl",
+    "triangles": 1332,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 1332
+  },
+  {
+    "id": "F14",
+    "name": "MG995 trial 24T / 5.60 mm bore",
+    "color": "mech",
+    "group": "test",
+    "variant": "common",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "print_bbox_min_mm": [
+      -5.26,
+      -4.555293623906147,
+      0.0
+    ],
+    "size_mm": [
+      10.52,
+      9.111,
+      11.1
+    ],
+    "volume_cm3": 0.7102660778767075,
+    "stl": "stl/F14.stl",
+    "triangles": 824,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 824
+  },
+  {
+    "id": "F15",
+    "name": "MG995 trial 24T / 5.85 mm bore",
+    "color": "mech",
+    "group": "test",
+    "variant": "common",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "print_bbox_min_mm": [
+      -5.26,
+      -4.555293623906147,
+      0.0
+    ],
+    "size_mm": [
+      10.52,
+      9.111,
+      11.1
+    ],
+    "volume_cm3": 0.7019688511473777,
+    "stl": "stl/F15.stl",
+    "triangles": 1080,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 1080
+  },
+  {
+    "id": "F16",
+    "name": "MG995 trial 24T / 6.10 mm bore",
+    "color": "mech",
+    "group": "test",
+    "variant": "common",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "print_bbox_min_mm": [
+      -5.26,
+      -4.555293623906147,
+      0.0
+    ],
+    "size_mm": [
+      10.52,
+      9.111,
+      11.1
+    ],
+    "volume_cm3": 0.6933090310518377,
+    "stl": "stl/F16.stl",
+    "triangles": 1336,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 1336
+  },
+  {
+    "id": "F21",
+    "name": "MG90S trial 21T / 4.60 mm bore",
+    "color": "mech",
+    "group": "test",
+    "variant": "common",
+    "orientation": [
+      180,
+      0,
+      0
+    ],
+    "print_bbox_min_mm": [
+      -4.26,
+      -3.6892682201217086,
+      -9.8
+    ],
+    "size_mm": [
+      8.52,
+      7.379,
+      9.8
+    ],
+    "volume_cm3": 0.38661677692880764,
+    "stl": "stl/F21.stl",
+    "triangles": 772,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 772
+  },
+  {
+    "id": "F22",
+    "name": "MG90S trial 21T / 4.85 mm bore",
+    "color": "mech",
+    "group": "test",
+    "variant": "common",
+    "orientation": [
+      180,
+      0,
+      0
+    ],
+    "print_bbox_min_mm": [
+      -4.26,
+      -3.6892682201217086,
+      -9.8
+    ],
+    "size_mm": [
+      8.52,
+      7.379,
+      9.8
+    ],
+    "volume_cm3": 0.37777508786408975,
+    "stl": "stl/F22.stl",
+    "triangles": 1028,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 1028
+  },
+  {
+    "id": "F23",
+    "name": "MG90S trial 21T / 5.10 mm bore",
+    "color": "mech",
+    "group": "test",
+    "variant": "common",
+    "orientation": [
+      180,
+      0,
+      0
+    ],
+    "print_bbox_min_mm": [
+      -4.26,
+      -3.6892682201217086,
+      -9.8
+    ],
+    "size_mm": [
+      8.52,
+      7.379,
+      9.8
+    ],
+    "volume_cm3": 0.368463251951935,
+    "stl": "stl/F23.stl",
+    "triangles": 1284,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 1284
+  },
+  {
+    "id": "F24",
+    "name": "MG90S trial 20T / 4.60 mm bore",
+    "color": "mech",
+    "group": "test",
+    "variant": "common",
+    "orientation": [
+      180,
+      0,
+      0
+    ],
+    "print_bbox_min_mm": [
+      -4.26,
+      -3.6892682201217086,
+      -9.8
+    ],
+    "size_mm": [
+      8.52,
+      7.379,
+      9.8
+    ],
+    "volume_cm3": 0.3857346331219616,
+    "stl": "stl/F24.stl",
+    "triangles": 776,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 776
+  },
+  {
+    "id": "F25",
+    "name": "MG90S trial 20T / 4.85 mm bore",
+    "color": "mech",
+    "group": "test",
+    "variant": "common",
+    "orientation": [
+      180,
+      0,
+      0
+    ],
+    "print_bbox_min_mm": [
+      -4.26,
+      -3.6892682201217086,
+      -9.8
+    ],
+    "size_mm": [
+      8.52,
+      7.379,
+      9.8
+    ],
+    "volume_cm3": 0.3768949624112725,
+    "stl": "stl/F25.stl",
+    "triangles": 1032,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 1032
+  },
+  {
+    "id": "F26",
+    "name": "MG90S trial 20T / 5.10 mm bore",
+    "color": "mech",
+    "group": "test",
+    "variant": "common",
+    "orientation": [
+      180,
+      0,
+      0
+    ],
+    "print_bbox_min_mm": [
+      -4.26,
+      -3.6892682201217086,
+      -9.8
+    ],
+    "size_mm": [
+      8.52,
+      7.379,
+      9.8
+    ],
+    "volume_cm3": 0.3675852529733353,
+    "stl": "stl/F26.stl",
+    "triangles": 1288,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 1288
+  },
+  {
+    "id": "T01",
+    "name": "Flat pin coupon - one two three dots = 0.15 0.20 0.25 mm per side",
+    "color": "mech",
+    "group": "test",
+    "variant": "common",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "print_bbox_min_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size_mm": [
+      54.0,
+      18.0,
+      8.0
+    ],
+    "volume_cm3": 7.454239132908766,
+    "stl": "stl/T01.stl",
+    "triangles": 2032,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 2032
+  },
+  {
+    "id": "T02",
+    "name": "Flat push-pin coupon key - 8 mm grip",
+    "color": "mech",
+    "group": "test",
+    "variant": "common",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "flat_pin_axis": "Z",
+    "print_bbox_min_mm": [
+      -3.5,
+      -10.24,
+      -1.5
+    ],
+    "size_mm": [
+      7.0,
+      12.04,
+      3.0
+    ],
+    "volume_cm3": 0.12131284674496946,
+    "stl": "stl/T02.stl",
+    "triangles": 656,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 656
+  },
+  {
+    "id": "T04",
+    "name": "Print-in-place hinge sample - axle side",
+    "color": "tongue",
+    "group": "test",
+    "variant": "common",
+    "orientation": [
+      0,
+      -90,
+      0
+    ],
+    "print_assembly": "PIP_TEST",
+    "print_bbox_min_mm": [
+      -7.95,
+      -6.0,
+      -18.0
+    ],
+    "size_mm": [
+      15.8,
+      31.1,
+      33.999
+    ],
+    "volume_cm3": 4.4992035936413375,
+    "stl": "stl/Hinge_Sample_Print_in_Place.stl",
+    "triangles": 7552,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 7552
+  },
+  {
+    "id": "T05",
+    "name": "Print-in-place hinge sample - captive knuckle side",
+    "color": "tongue",
+    "group": "test",
+    "variant": "common",
+    "orientation": [
+      0,
+      -90,
+      0
+    ],
+    "print_assembly": "PIP_TEST",
+    "print_bbox_min_mm": [
+      -14.08007069309031,
+      16.0,
+      -18.0
+    ],
+    "size_mm": [
+      20.08,
+      30.129,
+      31.6
+    ],
+    "volume_cm3": 3.8843334963570064,
+    "stl": "stl/Hinge_Sample_Print_in_Place.stl",
+    "triangles": 7348,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 7348
+  },
+  {
+    "id": "T03",
+    "name": "Flat tooth socket fit coupon",
+    "color": "mech",
+    "group": "test",
+    "variant": "common",
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "print_bbox_min_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size_mm": [
+      48.0,
+      14.0,
+      9.0
+    ],
+    "volume_cm3": 5.6210215886320904,
+    "stl": "stl/T03.stl",
+    "triangles": 1692,
+    "watertight": true,
+    "stl_cleanup_tolerance_mm": 0.0,
+    "stl_triangles": 1692
+  }
+]

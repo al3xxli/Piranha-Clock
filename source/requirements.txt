@@ -1,0 +1,10 @@
+numpy>=2.0
+manifold3d==3.5.4
+rhino3dm==8.35.0
+trimesh==5.1.1
+networkx>=3.0
+scipy>=1.14
+pyvista>=0.46
+vtk>=9.3
+pillow>=11
+matplotlib>=3.9

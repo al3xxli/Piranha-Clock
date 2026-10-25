@@ -1,0 +1,654 @@
+[
+  {
+    "id": "R01",
+    "connection": "Bottom tray to rim 1",
+    "parts": [
+      "C10",
+      "C09"
+    ],
+    "axis": "Z",
+    "origin": [
+      -48,
+      -40,
+      4
+    ],
+    "grip_mm": 7.8,
+    "pin_profile": "Circle with two parallel flats",
+    "pin_width_mm": 4.0,
+    "pin_thickness_mm": 3.0,
+    "clearance_per_side_mm": 0.25,
+    "hole_width_mm": 4.5,
+    "hole_flat_spacing_mm": 3.5,
+    "round_running_bearing_parts": [],
+    "retention": "Flat split nose snaps beyond far face; flat cap is insertion stop. Keyed static hole; circular moving bearing only at jaw pivots."
+  },
+  {
+    "id": "R02",
+    "connection": "Bottom tray to rim 2",
+    "parts": [
+      "C10",
+      "C09"
+    ],
+    "axis": "Z",
+    "origin": [
+      48,
+      -40,
+      4
+    ],
+    "grip_mm": 7.8,
+    "pin_profile": "Circle with two parallel flats",
+    "pin_width_mm": 4.0,
+    "pin_thickness_mm": 3.0,
+    "clearance_per_side_mm": 0.25,
+    "hole_width_mm": 4.5,
+    "hole_flat_spacing_mm": 3.5,
+    "round_running_bearing_parts": [],
+    "retention": "Flat split nose snaps beyond far face; flat cap is insertion stop. Keyed static hole; circular moving bearing only at jaw pivots."
+  },
+  {
+    "id": "R03",
+    "connection": "Bottom tray to rim 3",
+    "parts": [
+      "C10",
+      "C09"
+    ],
+    "axis": "Z",
+    "origin": [
+      0,
+      61,
+      4
+    ],
+    "grip_mm": 7.8,
+    "pin_profile": "Circle with two parallel flats",
+    "pin_width_mm": 4.0,
+    "pin_thickness_mm": 3.0,
+    "clearance_per_side_mm": 0.25,
+    "hole_width_mm": 4.5,
+    "hole_flat_spacing_mm": 3.5,
+    "round_running_bearing_parts": [],
+    "retention": "Flat split nose snaps beyond far face; flat cap is insertion stop. Keyed static hole; circular moving bearing only at jaw pivots."
+  },
+  {
+    "id": "R04",
+    "connection": "Top support to rim 1",
+    "parts": [
+      "B01",
+      "C11"
+    ],
+    "axis": "Z",
+    "origin": [
+      54.06403492307346,
+      37.85604479916904,
+      101.4
+    ],
+    "grip_mm": 5.2,
+    "pin_profile": "Circle with two parallel flats",
+    "pin_width_mm": 4.0,
+    "pin_thickness_mm": 3.0,
+    "clearance_per_side_mm": 0.25,
+    "hole_width_mm": 4.5,
+    "hole_flat_spacing_mm": 3.5,
+    "round_running_bearing_parts": [],
+    "retention": "Flat split nose snaps beyond far face; flat cap is insertion stop. Keyed static hole; circular moving bearing only at jaw pivots."
+  },
+  {
+    "id": "R05",
+    "connection": "Top support to rim 2",
+    "parts": [
+      "B01",
+      "C11"
+    ],
+    "axis": "Z",
+    "origin": [
+      -54.064034923073464,
+      37.856044799169034,
+      101.4
+    ],
+    "grip_mm": 5.2,
+    "pin_profile": "Circle with two parallel flats",
+    "pin_width_mm": 4.0,
+    "pin_thickness_mm": 3.0,
+    "clearance_per_side_mm": 0.25,
+    "hole_width_mm": 4.5,
+    "hole_flat_spacing_mm": 3.5,
+    "round_running_bearing_parts": [],
+    "retention": "Flat split nose snaps beyond far face; flat cap is insertion stop. Keyed static hole; circular moving bearing only at jaw pivots."
+  },
+  {
+    "id": "R06",
+    "connection": "Top support to rim 3",
+    "parts": [
+      "B01",
+      "C11"
+    ],
+    "axis": "Z",
+    "origin": [
+      -1.2124003311558795e-14,
+      -66.0,
+      101.4
+    ],
+    "grip_mm": 5.2,
+    "pin_profile": "Circle with two parallel flats",
+    "pin_width_mm": 4.0,
+    "pin_thickness_mm": 3.0,
+    "clearance_per_side_mm": 0.25,
+    "hole_width_mm": 4.5,
+    "hole_flat_spacing_mm": 3.5,
+    "round_running_bearing_parts": [],
+    "retention": "Flat split nose snaps beyond far face; flat cap is insertion stop. Keyed static hole; circular moving bearing only at jaw pivots."
+  },
+  {
+    "id": "R07",
+    "connection": "Stem foot 1",
+    "parts": [
+      "C11",
+      "C12"
+    ],
+    "axis": "Z",
+    "origin": [
+      -26,
+      -18,
+      103.4
+    ],
+    "grip_mm": 9.4,
+    "pin_profile": "Circle with two parallel flats",
+    "pin_width_mm": 4.0,
+    "pin_thickness_mm": 3.0,
+    "clearance_per_side_mm": 0.25,
+    "hole_width_mm": 4.5,
+    "hole_flat_spacing_mm": 3.5,
+    "round_running_bearing_parts": [],
+    "retention": "Flat split nose snaps beyond far face; flat cap is insertion stop. Keyed static hole; circular moving bearing only at jaw pivots."
+  },
+  {
+    "id": "R08",
+    "connection": "Stem foot 2",
+    "parts": [
+      "C11",
+      "C12"
+    ],
+    "axis": "Z",
+    "origin": [
+      26,
+      -18,
+      103.4
+    ],
+    "grip_mm": 9.4,
+    "pin_profile": "Circle with two parallel flats",
+    "pin_width_mm": 4.0,
+    "pin_thickness_mm": 3.0,
+    "clearance_per_side_mm": 0.25,
+    "hole_width_mm": 4.5,
+    "hole_flat_spacing_mm": 3.5,
+    "round_running_bearing_parts": [],
+    "retention": "Flat split nose snaps beyond far face; flat cap is insertion stop. Keyed static hole; circular moving bearing only at jaw pivots."
+  },
+  {
+    "id": "R09",
+    "connection": "Stem foot 3",
+    "parts": [
+      "C11",
+      "C12"
+    ],
+    "axis": "Z",
+    "origin": [
+      0,
+      8,
+      103.4
+    ],
+    "grip_mm": 9.4,
+    "pin_profile": "Circle with two parallel flats",
+    "pin_width_mm": 4.0,
+    "pin_thickness_mm": 3.0,
+    "clearance_per_side_mm": 0.25,
+    "hole_width_mm": 4.5,
+    "hole_flat_spacing_mm": 3.5,
+    "round_running_bearing_parts": [],
+    "retention": "Flat split nose snaps beyond far face; flat cap is insertion stop. Keyed static hole; circular moving bearing only at jaw pivots."
+  },
+  {
+    "id": "R10",
+    "connection": "Display sleeve sandwich 1",
+    "parts": [
+      "C16",
+      "C15"
+    ],
+    "axis": "Y",
+    "origin": [
+      -29,
+      56.5,
+      52
+    ],
+    "grip_mm": 23.9,
+    "pin_profile": "Circle with two parallel flats",
+    "pin_width_mm": 4.0,
+    "pin_thickness_mm": 3.0,
+    "clearance_per_side_mm": 0.25,
+    "hole_width_mm": 4.5,
+    "hole_flat_spacing_mm": 3.5,
+    "round_running_bearing_parts": [],
+    "retention": "Flat split nose snaps beyond far face; flat cap is insertion stop. Keyed static hole; circular moving bearing only at jaw pivots."
+  },
+  {
+    "id": "R11",
+    "connection": "Display sleeve sandwich 2",
+    "parts": [
+      "C17",
+      "C15"
+    ],
+    "axis": "Y",
+    "origin": [
+      29,
+      56.5,
+      52
+    ],
+    "grip_mm": 23.9,
+    "pin_profile": "Circle with two parallel flats",
+    "pin_width_mm": 4.0,
+    "pin_thickness_mm": 3.0,
+    "clearance_per_side_mm": 0.25,
+    "hole_width_mm": 4.5,
+    "hole_flat_spacing_mm": 3.5,
+    "round_running_bearing_parts": [],
+    "retention": "Flat split nose snaps beyond far face; flat cap is insertion stop. Keyed static hole; circular moving bearing only at jaw pivots."
+  },
+  {
+    "id": "R12",
+    "connection": "Tongue saddle 1",
+    "parts": [
+      "C02",
+      "A00"
+    ],
+    "axis": "Z",
+    "origin": [
+      -19,
+      12,
+      -13
+    ],
+    "grip_mm": 7.7,
+    "pin_profile": "Circle with two parallel flats",
+    "pin_width_mm": 4.0,
+    "pin_thickness_mm": 3.0,
+    "clearance_per_side_mm": 0.25,
+    "hole_width_mm": 4.5,
+    "hole_flat_spacing_mm": 3.5,
+    "round_running_bearing_parts": [],
+    "retention": "Flat split nose snaps beyond far face; flat cap is insertion stop. Keyed static hole; circular moving bearing only at jaw pivots."
+  },
+  {
+    "id": "R13",
+    "connection": "Tongue saddle 2",
+    "parts": [
+      "C02",
+      "A00"
+    ],
+    "axis": "Z",
+    "origin": [
+      39,
+      12,
+      -31
+    ],
+    "grip_mm": 25.7,
+    "pin_profile": "Circle with two parallel flats",
+    "pin_width_mm": 4.0,
+    "pin_thickness_mm": 3.0,
+    "clearance_per_side_mm": 0.25,
+    "hole_width_mm": 4.5,
+    "hole_flat_spacing_mm": 3.5,
+    "round_running_bearing_parts": [],
+    "retention": "Flat split nose snaps beyond far face; flat cap is insertion stop. Keyed static hole; circular moving bearing only at jaw pivots."
+  },
+  {
+    "id": "R14",
+    "connection": "Tendon guide",
+    "parts": [
+      "C02",
+      "A09"
+    ],
+    "axis": "Z",
+    "origin": [
+      45,
+      1,
+      -13
+    ],
+    "grip_mm": 7.4,
+    "pin_profile": "Circle with two parallel flats",
+    "pin_width_mm": 4.0,
+    "pin_thickness_mm": 3.0,
+    "clearance_per_side_mm": 0.25,
+    "hole_width_mm": 4.5,
+    "hole_flat_spacing_mm": 3.5,
+    "round_running_bearing_parts": [],
+    "retention": "Flat split nose snaps beyond far face; flat cap is insertion stop. Keyed static hole; circular moving bearing only at jaw pivots."
+  },
+  {
+    "id": "R15",
+    "connection": "Head frame to stem 1",
+    "parts": [
+      "C12",
+      "C04"
+    ],
+    "axis": "NZ",
+    "origin": [
+      -17,
+      -59,
+      255
+    ],
+    "grip_mm": 19,
+    "pin_profile": "Circle with two parallel flats",
+    "pin_width_mm": 4.0,
+    "pin_thickness_mm": 3.0,
+    "clearance_per_side_mm": 0.25,
+    "hole_width_mm": 4.5,
+    "hole_flat_spacing_mm": 3.5,
+    "round_running_bearing_parts": [],
+    "retention": "Flat split nose snaps beyond far face; flat cap is insertion stop. Keyed static hole; circular moving bearing only at jaw pivots."
+  },
+  {
+    "id": "R16",
+    "connection": "Head frame to stem 2",
+    "parts": [
+      "C12",
+      "C04"
+    ],
+    "axis": "NZ",
+    "origin": [
+      17,
+      -59,
+      255
+    ],
+    "grip_mm": 19,
+    "pin_profile": "Circle with two parallel flats",
+    "pin_width_mm": 4.0,
+    "pin_thickness_mm": 3.0,
+    "clearance_per_side_mm": 0.25,
+    "hole_width_mm": 4.5,
+    "hole_flat_spacing_mm": 3.5,
+    "round_running_bearing_parts": [],
+    "retention": "Flat split nose snaps beyond far face; flat cap is insertion stop. Keyed static hole; circular moving bearing only at jaw pivots."
+  },
+  {
+    "id": "R17",
+    "connection": "Head frame to stem 3",
+    "parts": [
+      "C12",
+      "C04"
+    ],
+    "axis": "NZ",
+    "origin": [
+      0,
+      -42,
+      247
+    ],
+    "grip_mm": 11,
+    "pin_profile": "Circle with two parallel flats",
+    "pin_width_mm": 4.0,
+    "pin_thickness_mm": 3.0,
+    "clearance_per_side_mm": 0.25,
+    "hole_width_mm": 4.5,
+    "hole_flat_spacing_mm": 3.5,
+    "round_running_bearing_parts": [],
+    "retention": "Flat split nose snaps beyond far face; flat cap is insertion stop. Keyed static hole; circular moving bearing only at jaw pivots."
+  },
+  {
+    "id": "R18",
+    "connection": "Skull to carrier 1",
+    "parts": [
+      "G00",
+      "C01"
+    ],
+    "axis": "Z",
+    "origin": [
+      -48,
+      20,
+      9
+    ],
+    "grip_mm": 16,
+    "pin_profile": "Circle with two parallel flats",
+    "pin_width_mm": 4.0,
+    "pin_thickness_mm": 3.0,
+    "clearance_per_side_mm": 0.25,
+    "hole_width_mm": 4.5,
+    "hole_flat_spacing_mm": 3.5,
+    "round_running_bearing_parts": [],
+    "retention": "Flat split nose snaps beyond far face; flat cap is insertion stop. Keyed static hole; circular moving bearing only at jaw pivots."
+  },
+  {
+    "id": "R19",
+    "connection": "Skull to carrier 2",
+    "parts": [
+      "G00",
+      "C01"
+    ],
+    "axis": "Z",
+    "origin": [
+      48,
+      20,
+      9
+    ],
+    "grip_mm": 16,
+    "pin_profile": "Circle with two parallel flats",
+    "pin_width_mm": 4.0,
+    "pin_thickness_mm": 3.0,
+    "clearance_per_side_mm": 0.25,
+    "hole_width_mm": 4.5,
+    "hole_flat_spacing_mm": 3.5,
+    "round_running_bearing_parts": [],
+    "retention": "Flat split nose snaps beyond far face; flat cap is insertion stop. Keyed static hole; circular moving bearing only at jaw pivots."
+  },
+  {
+    "id": "R20",
+    "connection": "Skull to carrier 3",
+    "parts": [
+      "G00",
+      "C01"
+    ],
+    "axis": "Z",
+    "origin": [
+      0,
+      -64,
+      15.6
+    ],
+    "grip_mm": 9.4,
+    "pin_profile": "Circle with two parallel flats",
+    "pin_width_mm": 4.0,
+    "pin_thickness_mm": 3.0,
+    "clearance_per_side_mm": 0.25,
+    "hole_width_mm": 4.5,
+    "hole_flat_spacing_mm": 3.5,
+    "round_running_bearing_parts": [],
+    "retention": "Flat split nose snaps beyond far face; flat cap is insertion stop. Keyed static hole; circular moving bearing only at jaw pivots."
+  },
+  {
+    "id": "R21",
+    "connection": "Upper right free-running pivot",
+    "parts": [
+      "C04",
+      "G00"
+    ],
+    "axis": "X",
+    "origin": [
+      45,
+      -50,
+      8
+    ],
+    "grip_mm": 15,
+    "pin_profile": "Circle with two parallel flats",
+    "pin_width_mm": 4.0,
+    "pin_thickness_mm": 3.0,
+    "clearance_per_side_mm": 0.25,
+    "hole_width_mm": 4.5,
+    "hole_flat_spacing_mm": 3.5,
+    "round_running_bearing_parts": [
+      "G00"
+    ],
+    "retention": "Flat split nose snaps beyond far face; flat cap is insertion stop. Keyed static hole; circular moving bearing only at jaw pivots."
+  },
+  {
+    "id": "R22",
+    "connection": "Lower right free-running pivot",
+    "parts": [
+      "C04",
+      "C02"
+    ],
+    "axis": "X",
+    "origin": [
+      45,
+      -50,
+      -32
+    ],
+    "grip_mm": 15,
+    "pin_profile": "Circle with two parallel flats",
+    "pin_width_mm": 4.0,
+    "pin_thickness_mm": 3.0,
+    "clearance_per_side_mm": 0.25,
+    "hole_width_mm": 4.5,
+    "hole_flat_spacing_mm": 3.5,
+    "round_running_bearing_parts": [
+      "C02"
+    ],
+    "retention": "Flat split nose snaps beyond far face; flat cap is insertion stop. Keyed static hole; circular moving bearing only at jaw pivots."
+  },
+  {
+    "id": "R23",
+    "connection": "Lower left free-running pivot",
+    "parts": [
+      "C02",
+      "G02",
+      "C04"
+    ],
+    "axis": "X",
+    "origin": [
+      -51.4,
+      -50,
+      -32
+    ],
+    "grip_mm": 21.4,
+    "pin_profile": "Circle with two parallel flats",
+    "pin_width_mm": 4.0,
+    "pin_thickness_mm": 3.0,
+    "clearance_per_side_mm": 0.25,
+    "hole_width_mm": 4.5,
+    "hole_flat_spacing_mm": 3.5,
+    "round_running_bearing_parts": [
+      "C02",
+      "G02"
+    ],
+    "retention": "Flat split nose snaps beyond far face; flat cap is insertion stop. Keyed static hole; circular moving bearing only at jaw pivots."
+  },
+  {
+    "id": "R24",
+    "connection": "Sector to jaw 1",
+    "parts": [
+      "C02",
+      "G02"
+    ],
+    "axis": "X",
+    "origin": [
+      -51.4,
+      -40.0,
+      -32.0
+    ],
+    "grip_mm": 12.4,
+    "pin_profile": "Circle with two parallel flats",
+    "pin_width_mm": 3.6,
+    "pin_thickness_mm": 3.0,
+    "clearance_per_side_mm": 0.25,
+    "hole_width_mm": 4.1,
+    "hole_flat_spacing_mm": 3.5,
+    "round_running_bearing_parts": [],
+    "retention": "Flat split nose snaps beyond far face; flat cap is insertion stop. Keyed static hole; circular moving bearing only at jaw pivots."
+  },
+  {
+    "id": "R25",
+    "connection": "Sector to jaw 2",
+    "parts": [
+      "C02",
+      "G02"
+    ],
+    "axis": "X",
+    "origin": [
+      -51.4,
+      -55.0,
+      -23.33974596215561
+    ],
+    "grip_mm": 12.4,
+    "pin_profile": "Circle with two parallel flats",
+    "pin_width_mm": 3.6,
+    "pin_thickness_mm": 3.0,
+    "clearance_per_side_mm": 0.25,
+    "hole_width_mm": 4.1,
+    "hole_flat_spacing_mm": 3.5,
+    "round_running_bearing_parts": [],
+    "retention": "Flat split nose snaps beyond far face; flat cap is insertion stop. Keyed static hole; circular moving bearing only at jaw pivots."
+  },
+  {
+    "id": "R26",
+    "connection": "Sector to jaw 3",
+    "parts": [
+      "C02",
+      "G02"
+    ],
+    "axis": "X",
+    "origin": [
+      -51.4,
+      -55.00000000000001,
+      -40.66025403784438
+    ],
+    "grip_mm": 12.4,
+    "pin_profile": "Circle with two parallel flats",
+    "pin_width_mm": 3.6,
+    "pin_thickness_mm": 3.0,
+    "clearance_per_side_mm": 0.25,
+    "hole_width_mm": 4.1,
+    "hole_flat_spacing_mm": 3.5,
+    "round_running_bearing_parts": [],
+    "retention": "Flat split nose snaps beyond far face; flat cap is insertion stop. Keyed static hole; circular moving bearing only at jaw pivots."
+  },
+  {
+    "id": "R27",
+    "connection": "Removable cheek 1",
+    "parts": [
+      "C18",
+      "C04"
+    ],
+    "axis": "X",
+    "origin": [
+      -57,
+      -71,
+      -20
+    ],
+    "grip_mm": 27,
+    "pin_profile": "Circle with two parallel flats",
+    "pin_width_mm": 4.0,
+    "pin_thickness_mm": 3.0,
+    "clearance_per_side_mm": 0.25,
+    "hole_width_mm": 4.5,
+    "hole_flat_spacing_mm": 3.5,
+    "round_running_bearing_parts": [],
+    "retention": "Flat split nose snaps beyond far face; flat cap is insertion stop. Keyed static hole; circular moving bearing only at jaw pivots."
+  },
+  {
+    "id": "R28",
+    "connection": "Removable cheek 2",
+    "parts": [
+      "C18",
+      "C04"
+    ],
+    "axis": "X",
+    "origin": [
+      -57,
+      -68,
+      -40
+    ],
+    "grip_mm": 27,
+    "pin_profile": "Circle with two parallel flats",
+    "pin_width_mm": 4.0,
+    "pin_thickness_mm": 3.0,
+    "clearance_per_side_mm": 0.25,
+    "hole_width_mm": 4.5,
+    "hole_flat_spacing_mm": 3.5,
+    "round_running_bearing_parts": [],
+    "retention": "Flat split nose snaps beyond far face; flat cap is insertion stop. Keyed static hole; circular moving bearing only at jaw pivots."
+  }
+]

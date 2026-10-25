@@ -1,0 +1,3966 @@
+{
+  "model": "cad/Piranha_Clock_V6_Print_Beds.3dm",
+  "source_model": "cad/Piranha_Clock_V6_Press_Fit.3dm",
+  "source_sha256": "b1bf34a1b4649e763612c90e88545bdee8d9787bc60d898edc1066a54d38a1c6",
+  "bed_count": 8,
+  "unique_part_count": 91,
+  "closed_rhino_meshes": 91,
+  "all_parts_included_once": true,
+  "edge_margin_mm": 10.0,
+  "minimum_unrelated_solid_gap_mm": 3.0,
+  "max_height_mm": 133.1999969482422,
+  "geometry_change": "Rhino: rigid transforms only, identical face counts and volumes. STL: selective 0.001 mm sliver cleanup where float32 export needs it.",
+  "supports_generated": false,
+  "sliced": false,
+  "physical_print_tested": false,
+  "metric_note": "Bounding-box gaps used where separated; exact solid distances checked for nested open frames. Tongue captive clearances checked separately. Down-facing area is not support-volume simulation.",
+  "beds": [
+    {
+      "bed": 1,
+      "name": "Fit samples, flat pins and cheek",
+      "layer": "BED 01 - Fit samples, flat pins and cheek",
+      "bed_size_mm": [
+        240,
+        240
+      ],
+      "rhino_origin_mm": [
+        0,
+        300,
+        0
+      ],
+      "stl": "print_beds/Bed_01_Cheek_PushPins.stl",
+      "stl_origin_mm": [
+        0,
+        0,
+        0
+      ],
+      "part_count": 46,
+      "max_height_mm": 33.999000549316406,
+      "min_pair_bbox_gap_mm": 4.960000000000036,
+      "parts": [
+        {
+          "id": "T01",
+          "name": "Flat pin coupon - one two three dots = 0.15 0.20 0.25 mm per side",
+          "bbox_local_mm": [
+            [
+              15.0,
+              15.0,
+              0.0
+            ],
+            [
+              69.0,
+              33.0,
+              8.0
+            ]
+          ],
+          "size_mm": [
+            54.0,
+            18.0,
+            8.0
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 2032,
+          "volume_mm3": 7454.2391329087695,
+          "vertex_colors": 1012,
+          "orientation_note": "Flat holes: 0.15 / 0.20 / 0.25 mm per-side clearance. Three dots match the successful user fit.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 932.1356938329927,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 932.1356938329927,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 2032,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "T03",
+          "name": "Flat tooth socket fit coupon",
+          "bbox_local_mm": [
+            [
+              85.0,
+              15.0,
+              0.0
+            ],
+            [
+              133.0,
+              29.0,
+              9.0
+            ]
+          ],
+          "size_mm": [
+            48.0,
+            14.0,
+            9.0
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 1692,
+          "volume_mm3": 5621.0215886320975,
+          "vertex_colors": 848,
+          "orientation_note": "Test flat tooth roots before the jaws.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 672.0,
+            "down_facing_45deg_area_mm2": 10.179999999999854
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 672.0,
+            "down_facing_45deg_area_mm2": 10.179999999999788
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 1692,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "T02",
+          "name": "Flat push-pin coupon key - 8 mm grip",
+          "bbox_local_mm": [
+            [
+              150.0,
+              15.0,
+              0.0
+            ],
+            [
+              162.03999999999996,
+              22.0,
+              3.0
+            ]
+          ],
+          "size_mm": [
+            12.039999999999964,
+            7.0,
+            3.0
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            90
+          ],
+          "triangles": 656,
+          "volume_mm3": 121.31284674497329,
+          "vertex_colors": 330,
+          "orientation_note": "Flat original base down.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 30.12774666602656,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 30.12774666602656,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 656,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "T04",
+          "name": "Print-in-place hinge sample - axle side",
+          "bbox_local_mm": [
+            [
+              106.1300706930903,
+              175.0,
+              0.0
+            ],
+            [
+              121.93007069309037,
+              206.0999999999999,
+              33.998999999999995
+            ]
+          ],
+          "size_mm": [
+            15.800000000000068,
+            31.09999999999991,
+            33.998999999999995
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 7552,
+          "volume_mm3": 4499.203593641328,
+          "vertex_colors": 3770,
+          "orientation_note": "PRINT IN PLACE: hinge axes remain vertical. Preserve 22.5-degree partial curl; stop tabs print clear of both limits. No support or brim in joints.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 115.55391230617249,
+            "down_facing_45deg_area_mm2": 270.2325328143377
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 115.55391230617249,
+            "down_facing_45deg_area_mm2": 270.2325328143377
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 7552,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "T05",
+          "name": "Print-in-place hinge sample - captive knuckle side",
+          "bbox_local_mm": [
+            [
+              100.0,
+              197.0,
+              0.0
+            ],
+            [
+              120.08007069309042,
+              227.12912253684453,
+              31.6
+            ]
+          ],
+          "size_mm": [
+            20.08007069309042,
+            30.129122536844534,
+            31.6
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 7348,
+          "volume_mm3": 3884.333496357002,
+          "vertex_colors": 3666,
+          "orientation_note": "PRINT IN PLACE: hinge axes remain vertical. Preserve 22.5-degree partial curl; stop tabs print clear of both limits. No support or brim in joints.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 93.34917884499731,
+            "down_facing_45deg_area_mm2": 251.60136642546297
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 93.34917884499731,
+            "down_facing_45deg_area_mm2": 251.60136642546297
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 7348,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "R01",
+          "name": "Bottom tray to rim 1 - flat split push pin",
+          "bbox_local_mm": [
+            [
+              10.0,
+              105.0,
+              0.0
+            ],
+            [
+              21.840000000000003,
+              112.0,
+              3.0
+            ]
+          ],
+          "size_mm": [
+            11.840000000000003,
+            7.0,
+            3.0
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            90
+          ],
+          "triangles": 652,
+          "volume_mm3": 119.16441897410243,
+          "vertex_colors": 328,
+          "orientation_note": "3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 29.59992154033477,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 29.59992154033477,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 652,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "R02",
+          "name": "Bottom tray to rim 2 - flat split push pin",
+          "bbox_local_mm": [
+            [
+              46.0,
+              105.0,
+              0.0
+            ],
+            [
+              57.84000000000003,
+              112.0,
+              3.0
+            ]
+          ],
+          "size_mm": [
+            11.840000000000032,
+            7.0,
+            3.0
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            90
+          ],
+          "triangles": 652,
+          "volume_mm3": 119.16441897410444,
+          "vertex_colors": 328,
+          "orientation_note": "3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 29.599921540333526,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 29.599921540333426,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 652,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "R03",
+          "name": "Bottom tray to rim 3 - flat split push pin",
+          "bbox_local_mm": [
+            [
+              82.0,
+              105.0,
+              0.0
+            ],
+            [
+              93.84000000000003,
+              112.0,
+              3.0
+            ]
+          ],
+          "size_mm": [
+            11.840000000000032,
+            7.0,
+            3.0
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            90
+          ],
+          "triangles": 652,
+          "volume_mm3": 119.16441897410475,
+          "vertex_colors": 328,
+          "orientation_note": "3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 29.599921540333447,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 29.599921540333447,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 652,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "R04",
+          "name": "Top support to rim 1 - flat split push pin",
+          "bbox_local_mm": [
+            [
+              118.0,
+              105.0,
+              0.0
+            ],
+            [
+              127.24000000000001,
+              112.0,
+              3.0
+            ]
+          ],
+          "size_mm": [
+            9.240000000000009,
+            7.0,
+            3.0
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            90
+          ],
+          "triangles": 652,
+          "volume_mm3": 98.43485795285596,
+          "vertex_colors": 328,
+          "orientation_note": "3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 25.138194906348215,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 25.138194906348215,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 652,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "R05",
+          "name": "Top support to rim 2 - flat split push pin",
+          "bbox_local_mm": [
+            [
+              154.0,
+              105.0,
+              0.0
+            ],
+            [
+              163.24,
+              112.0,
+              3.0
+            ]
+          ],
+          "size_mm": [
+            9.240000000000009,
+            7.0,
+            3.0
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            90
+          ],
+          "triangles": 652,
+          "volume_mm3": 98.43485795285596,
+          "vertex_colors": 328,
+          "orientation_note": "3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 25.138194906347834,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 25.138194906347834,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 652,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "R06",
+          "name": "Top support to rim 3 - flat split push pin",
+          "bbox_local_mm": [
+            [
+              190.0,
+              105.0,
+              0.0
+            ],
+            [
+              199.24,
+              112.0,
+              3.0
+            ]
+          ],
+          "size_mm": [
+            9.240000000000009,
+            7.0,
+            3.0
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            90
+          ],
+          "triangles": 652,
+          "volume_mm3": 98.43485795285385,
+          "vertex_colors": 328,
+          "orientation_note": "3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 25.13819490634884,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 25.13819490634884,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 652,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "R07",
+          "name": "Stem foot 1 - flat split push pin",
+          "bbox_local_mm": [
+            [
+              10.0,
+              118.0,
+              0.0
+            ],
+            [
+              23.43999999999994,
+              125.0,
+              3.0
+            ]
+          ],
+          "size_mm": [
+            13.43999999999994,
+            7.0,
+            3.0
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            90
+          ],
+          "triangles": 652,
+          "volume_mm3": 136.35184114102512,
+          "vertex_colors": 328,
+          "orientation_note": "3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 33.8225225458626,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 33.82252254586253,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 652,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "R08",
+          "name": "Stem foot 2 - flat split push pin",
+          "bbox_local_mm": [
+            [
+              46.0,
+              118.0,
+              0.0
+            ],
+            [
+              59.43999999999994,
+              125.0,
+              3.0
+            ]
+          ],
+          "size_mm": [
+            13.43999999999994,
+            7.0,
+            3.0
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            90
+          ],
+          "triangles": 652,
+          "volume_mm3": 136.3518411410255,
+          "vertex_colors": 328,
+          "orientation_note": "3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 33.82252254586257,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 33.82252254586257,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 652,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "R09",
+          "name": "Stem foot 3 - flat split push pin",
+          "bbox_local_mm": [
+            [
+              82.0,
+              118.0,
+              0.0
+            ],
+            [
+              95.43999999999994,
+              125.0,
+              3.0
+            ]
+          ],
+          "size_mm": [
+            13.43999999999994,
+            7.0,
+            3.0
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            90
+          ],
+          "triangles": 652,
+          "volume_mm3": 136.35184114102594,
+          "vertex_colors": 328,
+          "orientation_note": "3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 33.82252254586338,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 33.82252254586338,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 652,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "R10",
+          "name": "Display sleeve sandwich 1 - flat split push pin",
+          "bbox_local_mm": [
+            [
+              118.0,
+              118.0,
+              0.0
+            ],
+            [
+              145.93999999999994,
+              125.0,
+              3.0
+            ]
+          ],
+          "size_mm": [
+            27.93999999999994,
+            7.0,
+            3.0
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            90
+          ],
+          "triangles": 656,
+          "volume_mm3": 292.11285452875865,
+          "vertex_colors": 330,
+          "orientation_note": "3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 72.08984415847517,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 72.08984415847517,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 656,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "R11",
+          "name": "Display sleeve sandwich 2 - flat split push pin",
+          "bbox_local_mm": [
+            [
+              154.0,
+              118.0,
+              0.0
+            ],
+            [
+              181.93999999999994,
+              125.0,
+              3.0
+            ]
+          ],
+          "size_mm": [
+            27.93999999999994,
+            7.0,
+            3.0
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            90
+          ],
+          "triangles": 656,
+          "volume_mm3": 292.112854528749,
+          "vertex_colors": 330,
+          "orientation_note": "3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 72.08984415847584,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 72.08984415847584,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 656,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "R12",
+          "name": "Tongue saddle 1 - flat split push pin",
+          "bbox_local_mm": [
+            [
+              190.0,
+              118.0,
+              0.0
+            ],
+            [
+              201.74,
+              125.0,
+              3.0
+            ]
+          ],
+          "size_mm": [
+            11.740000000000009,
+            7.0,
+            3.0
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            90
+          ],
+          "triangles": 652,
+          "volume_mm3": 118.09020508867191,
+          "vertex_colors": 328,
+          "orientation_note": "3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 29.336008977488113,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 29.336008977488113,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 652,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "R13",
+          "name": "Tongue saddle 2 - flat split push pin",
+          "bbox_local_mm": [
+            [
+              10.0,
+              131.0,
+              0.0
+            ],
+            [
+              39.74000000000001,
+              138.0,
+              3.0
+            ]
+          ],
+          "size_mm": [
+            29.74000000000001,
+            7.0,
+            3.0
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            90
+          ],
+          "triangles": 656,
+          "volume_mm3": 311.44870446653607,
+          "vertex_colors": 330,
+          "orientation_note": "3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 76.8402702896965,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 76.8402702896965,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 656,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "R14",
+          "name": "Tendon guide - flat split push pin",
+          "bbox_local_mm": [
+            [
+              46.0,
+              131.0,
+              0.0
+            ],
+            [
+              57.440000000000055,
+              138.0,
+              3.0
+            ]
+          ],
+          "size_mm": [
+            11.440000000000055,
+            7.0,
+            3.0
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            90
+          ],
+          "triangles": 652,
+          "volume_mm3": 115.46756343237287,
+          "vertex_colors": 328,
+          "orientation_note": "3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 28.74427128895057,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 28.744271288950507,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 652,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "R15",
+          "name": "Head frame to stem 1 - flat split push pin",
+          "bbox_local_mm": [
+            [
+              82.0,
+              131.0,
+              0.0
+            ],
+            [
+              105.03999999999996,
+              138.0,
+              3.0
+            ]
+          ],
+          "size_mm": [
+            23.039999999999964,
+            7.0,
+            3.0
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            90
+          ],
+          "triangles": 656,
+          "volume_mm3": 239.4763741425577,
+          "vertex_colors": 330,
+          "orientation_note": "3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 59.158128579038895,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 59.158128579038895,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 656,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "R16",
+          "name": "Head frame to stem 2 - flat split push pin",
+          "bbox_local_mm": [
+            [
+              118.0,
+              131.0,
+              0.0
+            ],
+            [
+              141.03999999999996,
+              138.0,
+              3.0
+            ]
+          ],
+          "size_mm": [
+            23.039999999999964,
+            7.0,
+            3.0
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            90
+          ],
+          "triangles": 656,
+          "volume_mm3": 239.4763741425589,
+          "vertex_colors": 330,
+          "orientation_note": "3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 59.1581285790408,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 59.1581285790408,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 656,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "R17",
+          "name": "Head frame to stem 3 - flat split push pin",
+          "bbox_local_mm": [
+            [
+              154.0,
+              131.0,
+              0.0
+            ],
+            [
+              169.03999999999996,
+              138.0,
+              3.0
+            ]
+          ],
+          "size_mm": [
+            15.039999999999964,
+            7.0,
+            3.0
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            90
+          ],
+          "triangles": 652,
+          "volume_mm3": 153.5392633079482,
+          "vertex_colors": 328,
+          "orientation_note": "3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 38.04512355139291,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 38.04512355139291,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 652,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "R18",
+          "name": "Skull to carrier 1 - flat split push pin",
+          "bbox_local_mm": [
+            [
+              190.0,
+              131.0,
+              0.0
+            ],
+            [
+              210.03999999999996,
+              138.0,
+              3.0
+            ]
+          ],
+          "size_mm": [
+            20.039999999999964,
+            7.0,
+            3.0
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            90
+          ],
+          "triangles": 656,
+          "volume_mm3": 207.24995757957427,
+          "vertex_colors": 330,
+          "orientation_note": "3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 51.240751693673495,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 51.240751693673495,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 656,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "R19",
+          "name": "Skull to carrier 2 - flat split push pin",
+          "bbox_local_mm": [
+            [
+              10.0,
+              144.0,
+              0.0
+            ],
+            [
+              30.039999999999964,
+              151.0,
+              3.0
+            ]
+          ],
+          "size_mm": [
+            20.039999999999964,
+            7.0,
+            3.0
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            90
+          ],
+          "triangles": 656,
+          "volume_mm3": 207.24995757957842,
+          "vertex_colors": 330,
+          "orientation_note": "3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 51.24075169367147,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 51.240751693671285,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 656,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "R20",
+          "name": "Skull to carrier 3 - flat split push pin",
+          "bbox_local_mm": [
+            [
+              46.0,
+              144.0,
+              0.0
+            ],
+            [
+              59.440000000000055,
+              151.0,
+              3.0
+            ]
+          ],
+          "size_mm": [
+            13.440000000000055,
+            7.0,
+            3.0
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            90
+          ],
+          "triangles": 652,
+          "volume_mm3": 136.35184114102626,
+          "vertex_colors": 328,
+          "orientation_note": "3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 33.82252254586276,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 33.82252254586276,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 652,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "R21",
+          "name": "Upper right free-running pivot - flat split push pin",
+          "bbox_local_mm": [
+            [
+              82.0,
+              144.0,
+              0.0
+            ],
+            [
+              101.03999999999996,
+              151.0,
+              3.0
+            ]
+          ],
+          "size_mm": [
+            19.039999999999964,
+            7.0,
+            3.0
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            90
+          ],
+          "triangles": 656,
+          "volume_mm3": 196.5078187252531,
+          "vertex_colors": 330,
+          "orientation_note": "3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 48.601626065216855,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 48.601626065216855,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 656,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "R22",
+          "name": "Lower right free-running pivot - flat split push pin",
+          "bbox_local_mm": [
+            [
+              118.0,
+              144.0,
+              0.0
+            ],
+            [
+              137.03999999999996,
+              151.0,
+              3.0
+            ]
+          ],
+          "size_mm": [
+            19.039999999999964,
+            7.0,
+            3.0
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            90
+          ],
+          "triangles": 656,
+          "volume_mm3": 196.50781872525417,
+          "vertex_colors": 330,
+          "orientation_note": "3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 48.601626065216855,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 48.601626065216855,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 656,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "R23",
+          "name": "Lower left free-running pivot - flat split push pin",
+          "bbox_local_mm": [
+            [
+              154.0,
+              144.0,
+              0.0
+            ],
+            [
+              179.44000000000005,
+              151.0,
+              3.0
+            ]
+          ],
+          "size_mm": [
+            25.440000000000055,
+            7.0,
+            3.0
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            90
+          ],
+          "triangles": 656,
+          "volume_mm3": 265.257507392935,
+          "vertex_colors": 330,
+          "orientation_note": "3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 65.49203008733606,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 65.49203008733606,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 656,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "R24",
+          "name": "Sector to jaw 1 - flat split push pin",
+          "bbox_local_mm": [
+            [
+              190.0,
+              144.0,
+              0.0
+            ],
+            [
+              206.44000000000005,
+              149.6,
+              3.0
+            ]
+          ],
+          "size_mm": [
+            16.440000000000055,
+            5.599999999999994,
+            3.0
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            90
+          ],
+          "triangles": 732,
+          "volume_mm3": 140.48739890959556,
+          "vertex_colors": 368,
+          "orientation_note": "3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 29.632647002890575,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 29.63264700289061,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 732,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "R25",
+          "name": "Sector to jaw 2 - flat split push pin",
+          "bbox_local_mm": [
+            [
+              10.0,
+              157.0,
+              0.0
+            ],
+            [
+              26.440000000000055,
+              162.59999999999997,
+              3.0
+            ]
+          ],
+          "size_mm": [
+            16.440000000000055,
+            5.599999999999966,
+            3.0
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            90
+          ],
+          "triangles": 732,
+          "volume_mm3": 140.48739890959556,
+          "vertex_colors": 368,
+          "orientation_note": "3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 29.63264700289031,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 29.63264700289031,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 732,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "R26",
+          "name": "Sector to jaw 3 - flat split push pin",
+          "bbox_local_mm": [
+            [
+              46.0,
+              157.0,
+              0.0
+            ],
+            [
+              62.440000000000055,
+              162.60000000000002,
+              3.0
+            ]
+          ],
+          "size_mm": [
+            16.440000000000055,
+            5.600000000000023,
+            3.0
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            90
+          ],
+          "triangles": 732,
+          "volume_mm3": 140.48739890959556,
+          "vertex_colors": 368,
+          "orientation_note": "3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 29.632647002890938,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 29.632647002890938,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 732,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "R27",
+          "name": "Removable cheek 1 - flat split push pin",
+          "bbox_local_mm": [
+            [
+              82.0,
+              157.0,
+              0.0
+            ],
+            [
+              113.03999999999996,
+              164.0,
+              3.0
+            ]
+          ],
+          "size_mm": [
+            31.039999999999964,
+            7.0,
+            3.0
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            90
+          ],
+          "triangles": 656,
+          "volume_mm3": 325.41348497716973,
+          "vertex_colors": 330,
+          "orientation_note": "3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 80.2711336066887,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 80.2711336066887,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 656,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "R28",
+          "name": "Removable cheek 2 - flat split push pin",
+          "bbox_local_mm": [
+            [
+              118.0,
+              157.0,
+              0.0
+            ],
+            [
+              149.03999999999996,
+              164.0,
+              3.0
+            ]
+          ],
+          "size_mm": [
+            31.039999999999964,
+            7.0,
+            3.0
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            90
+          ],
+          "triangles": 656,
+          "volume_mm3": 325.41348497715927,
+          "vertex_colors": 330,
+          "orientation_note": "3 mm broad face on bed; pin length and split nose lie in the layer plane. PETG; solid infill; no supports in slit.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 80.27113360668936,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 80.27113360668936,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 656,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "F11",
+          "name": "MG995 trial 25T / 5.60 mm bore",
+          "bbox_local_mm": [
+            [
+              15.0,
+              55.0,
+              0.0
+            ],
+            [
+              25.519999999999982,
+              64.11058724781242,
+              11.1
+            ]
+          ],
+          "size_mm": [
+            10.519999999999982,
+            9.110587247812418,
+            11.1
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 820,
+          "volume_mm3": 711.1543206831266,
+          "vertex_colors": 412,
+          "orientation_note": "Spline opening up. Trial fit only; fine nozzle/layers for spline detail. No support inside bore.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 71.49830619514897,
+            "down_facing_45deg_area_mm2": 0.3842271900919337
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 71.49830619514897,
+            "down_facing_45deg_area_mm2": 0.3842271900919337
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 820,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "F12",
+          "name": "MG995 trial 25T / 5.85 mm bore",
+          "bbox_local_mm": [
+            [
+              40.0,
+              55.0,
+              0.0
+            ],
+            [
+              50.519999999999996,
+              64.11058724781196,
+              11.1
+            ]
+          ],
+          "size_mm": [
+            10.519999999999996,
+            9.110587247811964,
+            11.1
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 1076,
+          "volume_mm3": 702.8560084765523,
+          "vertex_colors": 540,
+          "orientation_note": "Spline opening up. Trial fit only; fine nozzle/layers for spline detail. No support inside bore.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 71.11407900505264,
+            "down_facing_45deg_area_mm2": 0.7684543801837425
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 71.11407900505263,
+            "down_facing_45deg_area_mm2": 0.768454380183741
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 1076,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "F13",
+          "name": "MG995 trial 25T / 6.10 mm bore",
+          "bbox_local_mm": [
+            [
+              65.0,
+              55.0,
+              0.0
+            ],
+            [
+              75.51999999999998,
+              64.11058724781196,
+              11.1
+            ]
+          ],
+          "size_mm": [
+            10.519999999999982,
+            9.110587247811964,
+            11.1
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 1332,
+          "volume_mm3": 694.195054933094,
+          "vertex_colors": 668,
+          "orientation_note": "Spline opening up. Trial fit only; fine nozzle/layers for spline detail. No support inside bore.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 70.72985181496068,
+            "down_facing_45deg_area_mm2": 1.1526815702755882
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 70.72985181496068,
+            "down_facing_45deg_area_mm2": 1.1526815702755882
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 1332,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "F14",
+          "name": "MG995 trial 24T / 5.60 mm bore",
+          "bbox_local_mm": [
+            [
+              90.0,
+              55.0,
+              0.0
+            ],
+            [
+              100.51999999999998,
+              64.11058724781196,
+              11.1
+            ]
+          ],
+          "size_mm": [
+            10.519999999999982,
+            9.110587247811964,
+            11.1
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 824,
+          "volume_mm3": 710.2660778766784,
+          "vertex_colors": 414,
+          "orientation_note": "Spline opening up. Trial fit only; fine nozzle/layers for spline detail. No support inside bore.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 69.69830619514468,
+            "down_facing_45deg_area_mm2": 2.1842271900915904
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 69.69830619514468,
+            "down_facing_45deg_area_mm2": 2.1842271900915904
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 824,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "F15",
+          "name": "MG995 trial 24T / 5.85 mm bore",
+          "bbox_local_mm": [
+            [
+              115.0,
+              55.0,
+              0.0
+            ],
+            [
+              125.51999999999998,
+              64.11058724781196,
+              11.1
+            ]
+          ],
+          "size_mm": [
+            10.519999999999982,
+            9.110587247811964,
+            11.1
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 1080,
+          "volume_mm3": 701.9688511473496,
+          "vertex_colors": 542,
+          "orientation_note": "Spline opening up. Trial fit only; fine nozzle/layers for spline detail. No support inside bore.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 69.31407900505282,
+            "down_facing_45deg_area_mm2": 2.5684543801834536
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 69.31407900505282,
+            "down_facing_45deg_area_mm2": 2.5684543801834536
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 1080,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "F16",
+          "name": "MG995 trial 24T / 6.10 mm bore",
+          "bbox_local_mm": [
+            [
+              140.0,
+              55.0,
+              0.0
+            ],
+            [
+              150.51999999999998,
+              64.11058724781196,
+              11.1
+            ]
+          ],
+          "size_mm": [
+            10.519999999999982,
+            9.110587247811964,
+            11.1
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 1336,
+          "volume_mm3": 693.3090310518168,
+          "vertex_colors": 670,
+          "orientation_note": "Spline opening up. Trial fit only; fine nozzle/layers for spline detail. No support inside bore.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 68.92985181496188,
+            "down_facing_45deg_area_mm2": 2.9526815702754257
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 68.92985181496188,
+            "down_facing_45deg_area_mm2": 2.9526815702754257
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 1336,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "F21",
+          "name": "MG90S trial 21T / 4.60 mm bore",
+          "bbox_local_mm": [
+            [
+              15.0,
+              80.0,
+              0.0
+            ],
+            [
+              23.52,
+              87.3785364402438,
+              9.8
+            ]
+          ],
+          "size_mm": [
+            8.52,
+            7.378536440243806,
+            9.8
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 772,
+          "volume_mm3": 386.6167769288318,
+          "vertex_colors": 388,
+          "orientation_note": "Spline opening up. Trial fit only; fine nozzle/layers for spline detail. No support inside bore.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 46.76462066306605,
+            "down_facing_45deg_area_mm2": 0.3842271900918711
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 46.76462066306604,
+            "down_facing_45deg_area_mm2": 0.3842271900918711
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 772,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "F22",
+          "name": "MG90S trial 21T / 4.85 mm bore",
+          "bbox_local_mm": [
+            [
+              40.0,
+              80.0,
+              0.0
+            ],
+            [
+              48.51999999999998,
+              87.3785364402438,
+              9.8
+            ]
+          ],
+          "size_mm": [
+            8.519999999999982,
+            7.378536440243806,
+            9.8
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 1028,
+          "volume_mm3": 377.7750878641141,
+          "vertex_colors": 516,
+          "orientation_note": "Spline opening up. Trial fit only; fine nozzle/layers for spline detail. No support inside bore.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 46.3803934729741,
+            "down_facing_45deg_area_mm2": 0.7684543801837278
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 46.3803934729741,
+            "down_facing_45deg_area_mm2": 0.7684543801837278
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 1028,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "F23",
+          "name": "MG90S trial 21T / 5.10 mm bore",
+          "bbox_local_mm": [
+            [
+              65.0,
+              80.0,
+              0.0
+            ],
+            [
+              73.51999999999998,
+              87.3785364402438,
+              9.8
+            ]
+          ],
+          "size_mm": [
+            8.519999999999982,
+            7.378536440243806,
+            9.8
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 1284,
+          "volume_mm3": 368.4632519519591,
+          "vertex_colors": 644,
+          "orientation_note": "Spline opening up. Trial fit only; fine nozzle/layers for spline detail. No support inside bore.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 45.99616628288223,
+            "down_facing_45deg_area_mm2": 1.1526815702755893
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 45.99616628288223,
+            "down_facing_45deg_area_mm2": 1.1526815702755893
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 1284,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "F24",
+          "name": "MG90S trial 20T / 4.60 mm bore",
+          "bbox_local_mm": [
+            [
+              90.0,
+              80.0,
+              0.0
+            ],
+            [
+              98.51999999999998,
+              87.3785364402438,
+              9.8
+            ]
+          ],
+          "size_mm": [
+            8.519999999999982,
+            7.378536440243806,
+            9.8
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 776,
+          "volume_mm3": 385.7346331219847,
+          "vertex_colors": 390,
+          "orientation_note": "Spline opening up. Trial fit only; fine nozzle/layers for spline detail. No support inside bore.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 44.964620663066235,
+            "down_facing_45deg_area_mm2": 2.1842271900915904
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 44.964620663066235,
+            "down_facing_45deg_area_mm2": 2.1842271900915904
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 776,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "F25",
+          "name": "MG90S trial 20T / 4.85 mm bore",
+          "bbox_local_mm": [
+            [
+              115.0,
+              80.0,
+              0.0
+            ],
+            [
+              123.51999999999998,
+              87.3785364402438,
+              9.8
+            ]
+          ],
+          "size_mm": [
+            8.519999999999982,
+            7.378536440243806,
+            9.8
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 1032,
+          "volume_mm3": 376.8949624113038,
+          "vertex_colors": 518,
+          "orientation_note": "Spline opening up. Trial fit only; fine nozzle/layers for spline detail. No support inside bore.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 44.58039347297513,
+            "down_facing_45deg_area_mm2": 2.5684543801835265
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 44.58039347297513,
+            "down_facing_45deg_area_mm2": 2.5684543801835265
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 1032,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "F26",
+          "name": "MG90S trial 20T / 5.10 mm bore",
+          "bbox_local_mm": [
+            [
+              140.0,
+              80.0,
+              0.0
+            ],
+            [
+              148.52,
+              87.3785364402438,
+              9.8
+            ]
+          ],
+          "size_mm": [
+            8.52000000000001,
+            7.378536440243806,
+            9.8
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 1288,
+          "volume_mm3": 367.585252973359,
+          "vertex_colors": 646,
+          "orientation_note": "Spline opening up. Trial fit only; fine nozzle/layers for spline detail. No support inside bore.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 44.19616628288257,
+            "down_facing_45deg_area_mm2": 2.952681570275341
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 44.19616628288259,
+            "down_facing_45deg_area_mm2": 2.9526815702753404
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 1288,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "C18",
+          "name": "Push-pin cheek and MG995 horn axial keeper",
+          "bbox_local_mm": [
+            [
+              15.0,
+              175.0,
+              0.0
+            ],
+            [
+              81.19177433223615,
+              227.89184317630315,
+              21.12638847309134
+            ]
+          ],
+          "size_mm": [
+            66.19177433223615,
+            52.891843176303155,
+            21.12638847309134
+          ],
+          "rotation_from_individual_stl_deg": [
+            180,
+            0,
+            0
+          ],
+          "triangles": 8924,
+          "volume_mm3": 7816.703352316338,
+          "vertex_colors": 4460,
+          "orientation_note": "Retains user-saved flipped orientation; selective support, preserve keeper and pin passages.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 62.55437358705525,
+            "down_facing_45deg_area_mm2": 2777.247956004676
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 0.0,
+            "down_facing_45deg_area_mm2": 2856.743921358856
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 8924,
+          "stl_volume_change_fraction": 0.0
+        }
+      ],
+      "stl_watertight_components": 46,
+      "stl_sha256": "8d4f27e8bba87c3442687ec340a104d910455975d650dfd9be43d394788d630f"
+    },
+    {
+      "bed": 2,
+      "name": "Upright hinges, drive and open tray",
+      "layer": "BED 02 - Upright hinges, drive and open tray",
+      "bed_size_mm": [
+        240,
+        240
+      ],
+      "rhino_origin_mm": [
+        300,
+        300,
+        0
+      ],
+      "stl": "print_beds/Bed_02_PIP_Tongue_and_Drive.stl",
+      "stl_origin_mm": [
+        0,
+        0,
+        0
+      ],
+      "part_count": 18,
+      "max_height_mm": 36.0,
+      "min_pair_bbox_gap_mm": 7.0,
+      "parts": [
+        {
+          "id": "A01",
+          "name": "Captive print-in-place tongue section 1",
+          "bbox_local_mm": [
+            [
+              112.55311453831818,
+              15.0,
+              0.0
+            ],
+            [
+              128.35311453831815,
+              47.10000000000002,
+              36.0
+            ]
+          ],
+          "size_mm": [
+            15.799999999999969,
+            32.10000000000002,
+            36.0
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 7192,
+          "volume_mm3": 4447.8810610990795,
+          "vertex_colors": 3594,
+          "orientation_note": "PRINT IN PLACE: hinge axes remain vertical. Preserve 22.5-degree partial curl; stop tabs print clear of both limits. No support or brim in joints.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 79.80473346117945,
+            "down_facing_45deg_area_mm2": 288.08742262704175
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 79.80473346117945,
+            "down_facing_45deg_area_mm2": 288.08742262704175
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 7192,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "A02",
+          "name": "Captive print-in-place tongue section 2",
+          "bbox_local_mm": [
+            [
+              106.42304384522788,
+              38.0,
+              0.0
+            ],
+            [
+              126.50311453831819,
+              67.54914736418719,
+              36.0
+            ]
+          ],
+          "size_mm": [
+            20.080070693090306,
+            29.549147364187192,
+            36.0
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 7660,
+          "volume_mm3": 4853.828804304386,
+          "vertex_colors": 3822,
+          "orientation_note": "PRINT IN PLACE: hinge axes remain vertical. Preserve 22.5-degree partial curl; stop tabs print clear of both limits. No support or brim in joints.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 115.55391230617374,
+            "down_facing_45deg_area_mm2": 269.9584513403074
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 115.55391230617367,
+            "down_facing_45deg_area_mm2": 269.95845134030753
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 7660,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "A03",
+          "name": "Captive print-in-place tongue section 3",
+          "bbox_local_mm": [
+            [
+              93.42772984018217,
+              58.32534971524831,
+              0.0
+            ],
+            [
+              118.08407902628619,
+              84.79661116696367,
+              35.0
+            ]
+          ],
+          "size_mm": [
+            24.656349186104023,
+            26.471261451715364,
+            35.0
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 7678,
+          "volume_mm3": 4790.124047296072,
+          "vertex_colors": 3833,
+          "orientation_note": "PRINT IN PLACE: hinge axes remain vertical. Preserve 22.5-degree partial curl; stop tabs print clear of both limits. No support or brim in joints.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 115.55391230617366,
+            "down_facing_45deg_area_mm2": 270.3111140664614
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 115.55391230617366,
+            "down_facing_45deg_area_mm2": 270.3111140664614
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 7678,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "A04",
+          "name": "Captive print-in-place tongue section 4",
+          "bbox_local_mm": [
+            [
+              73.10238012493386,
+              73.88169890135235,
+              0.0
+            ],
+            [
+              102.52772984018208,
+              94.15851045701937,
+              34.0
+            ]
+          ],
+          "size_mm": [
+            29.425349715248217,
+            20.276811555667024,
+            34.0
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 7904,
+          "volume_mm3": 4726.166537873295,
+          "vertex_colors": 3946,
+          "orientation_note": "PRINT IN PLACE: hinge axes remain vertical. Preserve 22.5-degree partial curl; stop tabs print clear of both limits. No support or brim in joints.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 115.55391230617383,
+            "down_facing_45deg_area_mm2": 270.27035525884475
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 115.55391230617383,
+            "down_facing_45deg_area_mm2": 270.27035525884475
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 7904,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "A05",
+          "name": "Captive print-in-place tongue section 5",
+          "bbox_local_mm": [
+            [
+              51.10238012493386,
+              80.35073441338433,
+              0.0
+            ],
+            [
+              82.20238012493377,
+              96.15073441338434,
+              33.998999999999995
+            ]
+          ],
+          "size_mm": [
+            31.09999999999991,
+            15.800000000000011,
+            33.998999999999995
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 7694,
+          "volume_mm3": 4629.580617091805,
+          "vertex_colors": 3841,
+          "orientation_note": "PRINT IN PLACE: hinge axes remain vertical. Preserve 22.5-degree partial curl; stop tabs print clear of both limits. No support or brim in joints.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 115.55391230617387,
+            "down_facing_45deg_area_mm2": 270.64142873365427
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 115.55391230617387,
+            "down_facing_45deg_area_mm2": 270.64142873365427
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 7694,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "A06",
+          "name": "Captive print-in-place tongue section 6",
+          "bbox_local_mm": [
+            [
+              30.65323276074666,
+              74.22066372029403,
+              0.0
+            ],
+            [
+              60.202380124933754,
+              94.30073441338433,
+              33.998999999999995
+            ]
+          ],
+          "size_mm": [
+            29.549147364187093,
+            20.080070693090306,
+            33.998999999999995
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 7552,
+          "volume_mm3": 4499.203593641335,
+          "vertex_colors": 3770,
+          "orientation_note": "PRINT IN PLACE: hinge axes remain vertical. Preserve 22.5-degree partial curl; stop tabs print clear of both limits. No support or brim in joints.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 115.553912306174,
+            "down_facing_45deg_area_mm2": 270.2325328143388
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 115.553912306174,
+            "down_facing_45deg_area_mm2": 270.2325328143388
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 7552,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "A07",
+          "name": "Captive print-in-place tongue section 7",
+          "bbox_local_mm": [
+            [
+              15.0,
+              61.00466849166682,
+              0.0
+            ],
+            [
+              39.877030409685545,
+              85.88169890135237,
+              31.6
+            ]
+          ],
+          "size_mm": [
+            24.877030409685545,
+            24.877030409685545,
+            31.6
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 7348,
+          "volume_mm3": 3884.3334963570055,
+          "vertex_colors": 3666,
+          "orientation_note": "PRINT IN PLACE: hinge axes remain vertical. Preserve 22.5-degree partial curl; stop tabs print clear of both limits. No support or brim in joints.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 93.34917884499598,
+            "down_facing_45deg_area_mm2": 251.60136642546337
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 93.34917884499598,
+            "down_facing_45deg_area_mm2": 251.60136642546337
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 7348,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "A00",
+          "name": "Snap-in tongue mounting saddle",
+          "bbox_local_mm": [
+            [
+              145.0,
+              15.0,
+              0.0
+            ],
+            [
+              211.5,
+              36.58044350328248,
+              24.93906526954774
+            ]
+          ],
+          "size_mm": [
+            66.5,
+            21.58044350328248,
+            24.93906526954774
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 1120,
+          "volume_mm3": 4061.7236409126813,
+          "vertex_colors": 554,
+          "orientation_note": "Mounting feet down; supports under saddle only.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 323.584059235493,
+            "down_facing_45deg_area_mm2": 757.3217859217536
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 323.584059235493,
+            "down_facing_45deg_area_mm2": 757.3217859217536
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 1120,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "G02",
+          "name": "Quarter sector of 64 tooth gear - 16 retained teeth",
+          "bbox_local_mm": [
+            [
+              170.0,
+              55.0,
+              0.0
+            ],
+            [
+              216.97137963026762,
+              99.68531459569931,
+              6.0
+            ]
+          ],
+          "size_mm": [
+            46.97137963026762,
+            44.68531459569931,
+            6.0
+          ],
+          "rotation_from_individual_stl_deg": [
+            180,
+            0,
+            0
+          ],
+          "triangles": 2942,
+          "volume_mm3": 7233.961952425288,
+          "vertex_colors": 1465,
+          "orientation_note": "Flat gear face down; keep teeth and push-pin holes clear.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 1205.6603254042147,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 1205.6603254042147,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 2942,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "A08",
+          "name": "MG90S drum with custom keyed drive hub",
+          "bbox_local_mm": [
+            [
+              140.0,
+              60.0,
+              0.0
+            ],
+            [
+              163.0,
+              83.0,
+              11.600000000000001
+            ]
+          ],
+          "size_mm": [
+            23.0,
+            23.0,
+            11.600000000000001
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 1628,
+          "volume_mm3": 2118.237652610412,
+          "vertex_colors": 812,
+          "orientation_note": "Flat original base down.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 389.98093606738144,
+            "down_facing_45deg_area_mm2": 116.49462655639604
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 389.98093606738144,
+            "down_facing_45deg_area_mm2": 116.49462655639604
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 1628,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "A09",
+          "name": "Push-in fairlead and MG90S horn axial keeper",
+          "bbox_local_mm": [
+            [
+              140.0,
+              90.0,
+              0.0
+            ],
+            [
+              153.20000000000005,
+              112.19999999999999,
+              25.1
+            ]
+          ],
+          "size_mm": [
+            13.200000000000045,
+            22.19999999999999,
+            25.1
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 1824,
+          "volume_mm3": 754.3217201659614,
+          "vertex_colors": 910,
+          "orientation_note": "Mounting pad down; local support for thrust keeper.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 0.0,
+            "down_facing_45deg_area_mm2": 117.83961340617515
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 0.0,
+            "down_facing_45deg_area_mm2": 117.83961340617515
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 1824,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "H01",
+          "name": "Custom MG995 spline insert - trial 25T 6 mm",
+          "bbox_local_mm": [
+            [
+              15.0,
+              130.0,
+              0.0
+            ],
+            [
+              25.519999999999982,
+              139.11058724781242,
+              11.100000000000001
+            ]
+          ],
+          "size_mm": [
+            10.519999999999982,
+            9.110587247812418,
+            11.100000000000001
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 564,
+          "volume_mm3": 698.2024486167871,
+          "vertex_colors": 284,
+          "orientation_note": "Spline opening up. Trial fit only; fine nozzle/layers for spline detail. No support inside bore.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 71.88253338523985,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 71.88253338523985,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 564,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "H02",
+          "name": "Custom MG90S spline insert - trial 21T 4.8 mm",
+          "bbox_local_mm": [
+            [
+              40.0,
+              130.0,
+              0.0
+            ],
+            [
+              48.51999999999998,
+              137.37853644024335,
+              9.800000000000004
+            ]
+          ],
+          "size_mm": [
+            8.519999999999982,
+            7.3785364402433515,
+            9.800000000000004
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 516,
+          "volume_mm3": 379.92684193600394,
+          "vertex_colors": 260,
+          "orientation_note": "Spline opening up. Trial fit only; fine nozzle/layers for spline detail. No support inside bore.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 47.14884785315491,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 47.14884785315491,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 516,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "S01",
+          "name": "MG995 removable press-over cradle clip",
+          "bbox_local_mm": [
+            [
+              15.0,
+              160.0,
+              0.0
+            ],
+            [
+              42.200000000000045,
+              202.1,
+              8.0
+            ]
+          ],
+          "size_mm": [
+            27.200000000000045,
+            42.099999999999994,
+            8.0
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            90
+          ],
+          "triangles": 88,
+          "volume_mm3": 1428.160000000001,
+          "vertex_colors": 46,
+          "orientation_note": "Flat original base down.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 178.5200000000002,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 178.52000000000015,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 88,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "S02",
+          "name": "MG90S removable underside case retainer",
+          "bbox_local_mm": [
+            [
+              50.0,
+              175.0,
+              0.0
+            ],
+            [
+              83.0,
+              198.39999999999986,
+              3.5
+            ]
+          ],
+          "size_mm": [
+            33.0,
+            23.399999999999864,
+            3.5
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 70,
+          "volume_mm3": 477.11999999998915,
+          "vertex_colors": 37,
+          "orientation_note": "Flat original base down.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 136.31999999999675,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 136.31999999999675,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 70,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "D01",
+          "name": "Display PCB edge shim 1",
+          "bbox_local_mm": [
+            [
+              65.0,
+              130.0,
+              0.0
+            ],
+            [
+              67.0,
+              152.0,
+              2.5999999999999943
+            ]
+          ],
+          "size_mm": [
+            2.0,
+            22.0,
+            2.5999999999999943
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 34,
+          "volume_mm3": 79.19999999999997,
+          "vertex_colors": 19,
+          "orientation_note": "Flat original base down.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 44.0,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 44.0,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 34,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "D02",
+          "name": "Display PCB edge shim 2",
+          "bbox_local_mm": [
+            [
+              82.0,
+              130.0,
+              0.0
+            ],
+            [
+              84.0,
+              152.0,
+              2.5999999999999943
+            ]
+          ],
+          "size_mm": [
+            2.0,
+            22.0,
+            2.5999999999999943
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 34,
+          "volume_mm3": 79.20000000000012,
+          "vertex_colors": 19,
+          "orientation_note": "Flat original base down.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 44.0,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 44.0,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 34,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "C10",
+          "name": "Open electronics tray with PCB edge rails",
+          "bbox_local_mm": [
+            [
+              105.0,
+              120.0,
+              0.0
+            ],
+            [
+              227.0,
+              226.0,
+              14.5
+            ]
+          ],
+          "size_mm": [
+            122.0,
+            106.0,
+            14.5
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            90
+          ],
+          "triangles": 1584,
+          "volume_mm3": 13599.558963272182,
+          "vertex_colors": 780,
+          "orientation_note": "Flat original base down.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 2662.2219342422627,
+            "down_facing_45deg_area_mm2": 323.5999999999917
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 2662.2219342422627,
+            "down_facing_45deg_area_mm2": 323.5999999999917
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 1584,
+          "stl_volume_change_fraction": 0.0
+        }
+      ],
+      "stl_watertight_components": 18,
+      "stl_sha256": "9c3f6457c067c0adb8c48aa4c96c034c490ed5aa92413a36f2070ea9532ad1b3"
+    },
+    {
+      "bed": 3,
+      "name": "Stem and structural mounts",
+      "layer": "BED 03 - Stem and structural mounts",
+      "bed_size_mm": [
+        240,
+        240
+      ],
+      "rhino_origin_mm": [
+        600,
+        300,
+        0
+      ],
+      "stl": "print_beds/Bed_03_Stem_and_Mounts.stl",
+      "stl_origin_mm": [
+        0,
+        0,
+        0
+      ],
+      "part_count": 6,
+      "max_height_mm": 133.1999969482422,
+      "min_pair_bbox_gap_mm": 3.0,
+      "parts": [
+        {
+          "id": "G00",
+          "name": "Upper carrier with integral pinion and custom keyed drive hub",
+          "bbox_local_mm": [
+            [
+              23.8255,
+              25.403899999999993,
+              0.0
+            ],
+            [
+              137.8255,
+              119.9039,
+              21.6
+            ]
+          ],
+          "size_mm": [
+            114.0,
+            94.5,
+            21.6
+          ],
+          "rotation_from_individual_stl_deg": [
+            180,
+            0,
+            0
+          ],
+          "triangles": 5628,
+          "volume_mm3": 17278.52396735871,
+          "vertex_colors": 2808,
+          "orientation_note": "Mounting pads down; support arms and gear locally. Do not fill the hex hub socket.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 0.0,
+            "down_facing_45deg_area_mm2": 2292.0980975834746
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 988.2356812401752,
+            "down_facing_45deg_area_mm2": 1397.1404782715651
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 5628,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "C04",
+          "name": "Stationary twin hinge frame and MG995 cradle",
+          "bbox_local_mm": [
+            [
+              150.3647,
+              26.179500000000004,
+              0.0
+            ],
+            [
+              214.8647,
+              117.1795,
+              63.5
+            ]
+          ],
+          "size_mm": [
+            64.5,
+            91.0,
+            63.5
+          ],
+          "rotation_from_individual_stl_deg": [
+            -90,
+            0,
+            -90
+          ],
+          "triangles": 14266,
+          "volume_mm3": 38647.37510642548,
+          "vertex_colors": 7111,
+          "orientation_note": "Rear frame face down; support remaining ledges, keep clip slots and bearings clear.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 0.0,
+            "down_facing_45deg_area_mm2": 5021.0411834778215
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 1198.5,
+            "down_facing_45deg_area_mm2": 2168.233417635724
+          },
+          "stl_cleanup_tolerance_mm": 0.001,
+          "stl_triangles": 6266,
+          "stl_volume_change_fraction": 1.1238406649738408e-08
+        },
+        {
+          "id": "C12",
+          "name": "Hollow ribbed stem with cable passage and leaf sockets",
+          "bbox_local_mm": [
+            [
+              70.2903,
+              139.9387,
+              0.0
+            ],
+            [
+              168.2903,
+              203.9387,
+              133.2
+            ]
+          ],
+          "size_mm": [
+            98.0,
+            64.0,
+            133.2
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            90
+          ],
+          "triangles": 53282,
+          "volume_mm3": 91371.46876997362,
+          "vertex_colors": 26619,
+          "orientation_note": "Stem foot down; localized supports under upper flange and leaf sockets.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 2856.369289419934,
+            "down_facing_45deg_area_mm2": 1895.0285751492193
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 2856.369289419934,
+            "down_facing_45deg_area_mm2": 1895.0285751492193
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 53282,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "C15",
+          "name": "Removable clock bezel and adjustable TM1637 pocket",
+          "bbox_local_mm": [
+            [
+              47.745,
+              45.370000000000005,
+              0.0
+            ],
+            [
+              115.745,
+              85.37,
+              20.60000000000001
+            ]
+          ],
+          "size_mm": [
+            68.0,
+            40.0,
+            20.60000000000001
+          ],
+          "rotation_from_individual_stl_deg": [
+            180,
+            0,
+            0
+          ],
+          "triangles": 790,
+          "volume_mm3": 12386.708296177458,
+          "vertex_colors": 391,
+          "orientation_note": "Bezel face down; PCB cradle above.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 217.1999999999989,
+            "down_facing_45deg_area_mm2": 1443.524059235495
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 1624.8840592354939,
+            "down_facing_45deg_area_mm2": 35.84000000000027
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 790,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "C16",
+          "name": "Display retaining clamp 1",
+          "bbox_local_mm": [
+            [
+              63.92,
+              56.94,
+              0.0
+            ],
+            [
+              78.92,
+              72.94,
+              9.0
+            ]
+          ],
+          "size_mm": [
+            15.0,
+            16.0,
+            9.0
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 512,
+          "volume_mm3": 1443.56370738223,
+          "vertex_colors": 256,
+          "orientation_note": "Flat original base down.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 146.04202961774658,
+            "down_facing_45deg_area_mm2": 80.0
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 146.04202961774658,
+            "down_facing_45deg_area_mm2": 80.0
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 512,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "C17",
+          "name": "Display retaining clamp 2",
+          "bbox_local_mm": [
+            [
+              84.15,
+              56.94,
+              0.0
+            ],
+            [
+              99.15,
+              72.94,
+              9.0
+            ]
+          ],
+          "size_mm": [
+            15.0,
+            16.0,
+            9.0
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 520,
+          "volume_mm3": 1443.563707382229,
+          "vertex_colors": 260,
+          "orientation_note": "Flat original base down.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 146.0420296177466,
+            "down_facing_45deg_area_mm2": 80.0
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 146.0420296177466,
+            "down_facing_45deg_area_mm2": 80.0
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 520,
+          "stl_volume_change_fraction": 0.0
+        }
+      ],
+      "stl_watertight_components": 6,
+      "stl_sha256": "df2309c70fbc6cf66949dbd7da7a14bdda7f61a8551afb4f69542cfa6f038a19"
+    },
+    {
+      "bed": 4,
+      "name": "Open top support and leaves",
+      "layer": "BED 04 - Open top support and leaves",
+      "bed_size_mm": [
+        240,
+        240
+      ],
+      "rhino_origin_mm": [
+        900,
+        300,
+        0
+      ],
+      "stl": "print_beds/Bed_04_Top_Support_and_Leaves.stl",
+      "stl_origin_mm": [
+        0,
+        0,
+        0
+      ],
+      "part_count": 3,
+      "max_height_mm": 24.97234535217285,
+      "min_pair_bbox_gap_mm": 3.0,
+      "parts": [
+        {
+          "id": "C11",
+          "name": "Open three-spoke stem support - optional cardboard soil infill",
+          "bbox_local_mm": [
+            [
+              19.17,
+              41.0,
+              0.0
+            ],
+            [
+              177.17000000000002,
+              199.0,
+              4.400000000000006
+            ]
+          ],
+          "size_mm": [
+            158.0,
+            158.0,
+            4.400000000000006
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 4188,
+          "volume_mm3": 30330.619531738714,
+          "vertex_colors": 2076,
+          "orientation_note": "Flat original base down.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 9453.230507228822,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 9453.230507228822,
+            "down_facing_45deg_area_mm2": 0.0
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 4188,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "C13",
+          "name": "Left veined serrated leaf - split press-fit tang",
+          "bbox_local_mm": [
+            [
+              167.68,
+              17.0,
+              0.0
+            ],
+            [
+              212.74689653985087,
+              112.41906288758628,
+              24.97234602479017
+            ]
+          ],
+          "size_mm": [
+            45.06689653985086,
+            95.41906288758628,
+            24.97234602479017
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            90
+          ],
+          "triangles": 16306,
+          "volume_mm3": 7393.860320448174,
+          "vertex_colors": 8153,
+          "orientation_note": "Leaf veins up; localized underside supports.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 93.89999999999918,
+            "down_facing_45deg_area_mm2": 2471.9306661693786
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 93.89999999999918,
+            "down_facing_45deg_area_mm2": 2471.9306661693786
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 16306,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "C14",
+          "name": "Right veined serrated leaf - split press-fit tang",
+          "bbox_local_mm": [
+            [
+              167.68,
+              126.0,
+              0.0
+            ],
+            [
+              212.74689653985087,
+              221.41906288758622,
+              24.97234602479017
+            ]
+          ],
+          "size_mm": [
+            45.06689653985086,
+            95.41906288758622,
+            24.97234602479017
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            90
+          ],
+          "triangles": 16342,
+          "volume_mm3": 7393.13285333027,
+          "vertex_colors": 8171,
+          "orientation_note": "Leaf veins up; localized underside supports.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 93.89999999999918,
+            "down_facing_45deg_area_mm2": 2472.039670813129
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 93.89999999999918,
+            "down_facing_45deg_area_mm2": 2472.039670813129
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 16342,
+          "stl_volume_change_fraction": 0.0
+        }
+      ],
+      "stl_watertight_components": 3,
+      "stl_sha256": "be9dca8e53af4552eba73295be82742fe0f2547f8f285e079fb6416f9a4d461f"
+    },
+    {
+      "bed": 5,
+      "name": "Lower jaw",
+      "layer": "BED 05 - Lower jaw",
+      "bed_size_mm": [
+        240,
+        240
+      ],
+      "rhino_origin_mm": [
+        0,
+        0,
+        0
+      ],
+      "stl": "print_beds/Bed_05_Lower_Jaw.stl",
+      "stl_origin_mm": [
+        0,
+        0,
+        0
+      ],
+      "part_count": 1,
+      "max_height_mm": 55.4207649230957,
+      "min_pair_bbox_gap_mm": null,
+      "parts": [
+        {
+          "id": "C02",
+          "name": "Lower jaw and tongue tray with six keyed tooth sockets",
+          "bbox_local_mm": [
+            [
+              39.4,
+              46.308,
+              0.0
+            ],
+            [
+              200.60023931336778,
+              193.31124431608475,
+              55.42076673947026
+            ]
+          ],
+          "size_mm": [
+            161.20023931336777,
+            147.00324431608476,
+            55.42076673947026
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 79762,
+          "volume_mm3": 133310.5439974621,
+          "vertex_colors": 39855,
+          "orientation_note": "Retains user-saved broad, shallow orientation; selective support under tray, bowl and sockets.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 0.0,
+            "down_facing_45deg_area_mm2": 18254.852710951272
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 0.0,
+            "down_facing_45deg_area_mm2": 18254.852710951272
+          },
+          "stl_cleanup_tolerance_mm": 0.001,
+          "stl_triangles": 75644,
+          "stl_volume_change_fraction": 6.682267850166568e-09
+        }
+      ],
+      "stl_watertight_components": 1,
+      "stl_sha256": "ccc548c44413050d349a8c7c1e8bdfbaa5524fb0a5819c15f1fb6b7a62422bc4"
+    },
+    {
+      "bed": 6,
+      "name": "Upper head",
+      "layer": "BED 06 - Upper head",
+      "bed_size_mm": [
+        240,
+        240
+      ],
+      "rhino_origin_mm": [
+        300,
+        0,
+        0
+      ],
+      "stl": "print_beds/Bed_06_Upper_Head.stl",
+      "stl_origin_mm": [
+        0,
+        0,
+        0
+      ],
+      "part_count": 1,
+      "max_height_mm": 74.6282958984375,
+      "min_pair_bbox_gap_mm": null,
+      "parts": [
+        {
+          "id": "C01",
+          "name": "Upper skull and plump lip with eight keyed tooth sockets",
+          "bbox_local_mm": [
+            [
+              25.602,
+              29.179000000000002,
+              0.0
+            ],
+            [
+              206.94783173272074,
+              202.22211875847248,
+              74.62829589582998
+            ]
+          ],
+          "size_mm": [
+            181.34583173272074,
+            173.04311875847247,
+            74.62829589582998
+          ],
+          "rotation_from_individual_stl_deg": [
+            180,
+            0,
+            0
+          ],
+          "triangles": 135406,
+          "volume_mm3": 191169.81283644552,
+          "vertex_colors": 67697,
+          "orientation_note": "Retains user-saved broad, shallow orientation; selective support beneath shell and lip.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 0.0,
+            "down_facing_45deg_area_mm2": 21707.206663745616
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 0.0,
+            "down_facing_45deg_area_mm2": 21095.125624754008
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 135406,
+          "stl_volume_change_fraction": 0.0
+        }
+      ],
+      "stl_watertight_components": 1,
+      "stl_sha256": "4e8056b409a50e8d88367b3d4cc5412d1a91699d65408b13f4948769cc806fa5"
+    },
+    {
+      "bed": 7,
+      "name": "Bottom rim and upper teeth",
+      "layer": "BED 07 - Bottom rim and upper teeth",
+      "bed_size_mm": [
+        240,
+        240
+      ],
+      "rhino_origin_mm": [
+        600,
+        0,
+        0
+      ],
+      "stl": "print_beds/Bed_07_Bottom_Rim_and_Upper_Teeth.stl",
+      "stl_origin_mm": [
+        0,
+        0,
+        0
+      ],
+      "part_count": 9,
+      "max_height_mm": 14.0,
+      "min_pair_bbox_gap_mm": 4.230849548067312,
+      "parts": [
+        {
+          "id": "C09",
+          "name": "Bottom rim - 5.4 mm sleeve channel",
+          "bbox_local_mm": [
+            [
+              40.0,
+              40.0,
+              0.0
+            ],
+            [
+              200.0,
+              200.0,
+              14.0
+            ]
+          ],
+          "size_mm": [
+            160.0,
+            160.0,
+            14.0
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 4804,
+          "volume_mm3": 47547.98752760028,
+          "vertex_colors": 2388,
+          "orientation_note": "Flat original base down.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 6230.424106326359,
+            "down_facing_45deg_area_mm2": 481.6290768317103
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 6230.424106326359,
+            "down_facing_45deg_area_mm2": 481.6290768317103
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 4804,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "U01",
+          "name": "Upper flat snap-in tooth 1",
+          "bbox_local_mm": [
+            [
+              75.0,
+              80.0,
+              0.0
+            ],
+            [
+              91.41279602040413,
+              114.49710017096413,
+              3.0000000000000027
+            ]
+          ],
+          "size_mm": [
+            16.41279602040413,
+            34.49710017096413,
+            3.0000000000000027
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 1300,
+          "volume_mm3": 552.300758187053,
+          "vertex_colors": 652,
+          "orientation_note": "Flat 3 mm fang face down; no support. Keep the split root free of paint and brim.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 160.73059833186028,
+            "down_facing_45deg_area_mm2": 9.931312312510276
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 160.73059833186028,
+            "down_facing_45deg_area_mm2": 9.931312312510276
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 1300,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "U02",
+          "name": "Upper flat snap-in tooth 2",
+          "bbox_local_mm": [
+            [
+              99.4,
+              80.0,
+              0.0
+            ],
+            [
+              119.3118221068328,
+              116.46741395405206,
+              3.000000000000007
+            ]
+          ],
+          "size_mm": [
+            19.9118221068328,
+            36.46741395405206,
+            3.000000000000007
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 1294,
+          "volume_mm3": 595.8231488690896,
+          "vertex_colors": 649,
+          "orientation_note": "Flat 3 mm fang face down; no support. Keep the split root free of paint and brim.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 175.62890725660912,
+            "down_facing_45deg_area_mm2": 9.157424649928187
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 175.628907256609,
+            "down_facing_45deg_area_mm2": 9.157424649928219
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 1294,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "U03",
+          "name": "Upper flat snap-in tooth 3",
+          "bbox_local_mm": [
+            [
+              123.8,
+              80.0,
+              0.0
+            ],
+            [
+              139.84689446249553,
+              113.27725214511088,
+              3.000000000000014
+            ]
+          ],
+          "size_mm": [
+            16.04689446249553,
+            33.27725214511088,
+            3.000000000000014
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 1288,
+          "volume_mm3": 530.813552138489,
+          "vertex_colors": 646,
+          "orientation_note": "Flat 3 mm fang face down; no support. Keep the split root free of paint and brim.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 160.44831719105616,
+            "down_facing_45deg_area_mm2": 4.130652482809874
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 160.44831719105622,
+            "down_facing_45deg_area_mm2": 4.130652482809874
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 1288,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "U04",
+          "name": "Upper flat snap-in tooth 4",
+          "bbox_local_mm": [
+            [
+              148.2,
+              80.0,
+              0.0
+            ],
+            [
+              164.58652419550157,
+              113.40966773336322,
+              3.0000000000000107
+            ]
+          ],
+          "size_mm": [
+            16.38652419550158,
+            33.40966773336322,
+            3.0000000000000107
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 1294,
+          "volume_mm3": 534.8904750880683,
+          "vertex_colors": 649,
+          "orientation_note": "Flat 3 mm fang face down; no support. Keep the split root free of paint and brim.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 156.62749937597852,
+            "down_facing_45deg_area_mm2": 9.687578526081596
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 156.62749937597852,
+            "down_facing_45deg_area_mm2": 9.687578526081596
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 1294,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "U05",
+          "name": "Upper flat snap-in tooth 5",
+          "bbox_local_mm": [
+            [
+              75.0,
+              123.0,
+              0.0
+            ],
+            [
+              91.26029583904233,
+              159.40539533206197,
+              3.000000000000007
+            ]
+          ],
+          "size_mm": [
+            16.26029583904233,
+            36.40539533206197,
+            3.000000000000007
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 1294,
+          "volume_mm3": 580.9245561126063,
+          "vertex_colors": 649,
+          "orientation_note": "Flat 3 mm fang face down; no support. Keep the split root free of paint and brim.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 164.26432542905968,
+            "down_facing_45deg_area_mm2": 16.67546033263034
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 164.26432542905968,
+            "down_facing_45deg_area_mm2": 16.67546033263034
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 1294,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "U06",
+          "name": "Upper flat snap-in tooth 6",
+          "bbox_local_mm": [
+            [
+              99.4,
+              123.0,
+              0.0
+            ],
+            [
+              115.43634132889784,
+              157.3365272976066,
+              3.000000000000007
+            ]
+          ],
+          "size_mm": [
+            16.036341328897834,
+            34.33652729760661,
+            3.000000000000007
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 1290,
+          "volume_mm3": 547.3978141351618,
+          "vertex_colors": 647,
+          "orientation_note": "Flat 3 mm fang face down; no support. Keep the split root free of paint and brim.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 154.9996938002306,
+            "down_facing_45deg_area_mm2": 15.575374395197716
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 154.9996938002306,
+            "down_facing_45deg_area_mm2": 15.575374395197716
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 1290,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "U07",
+          "name": "Upper flat snap-in tooth 7",
+          "bbox_local_mm": [
+            [
+              123.8,
+              123.0,
+              0.0
+            ],
+            [
+              143.96915045193268,
+              155.78435539501618,
+              3.000000000000007
+            ]
+          ],
+          "size_mm": [
+            20.16915045193268,
+            32.78435539501618,
+            3.000000000000007
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 1306,
+          "volume_mm3": 540.6009865582897,
+          "vertex_colors": 655,
+          "orientation_note": "Flat 3 mm fang face down; no support. Keep the split root free of paint and brim.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 154.91929326977555,
+            "down_facing_45deg_area_mm2": 12.791639881436236
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 154.91929326977547,
+            "down_facing_45deg_area_mm2": 12.791639881436264
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 1306,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "U08",
+          "name": "Upper flat snap-in tooth 8",
+          "bbox_local_mm": [
+            [
+              148.2,
+              123.0,
+              0.0
+            ],
+            [
+              165.00780615183936,
+              158.83282096090227,
+              3.0000000000000027
+            ]
+          ],
+          "size_mm": [
+            16.807806151839372,
+            35.83282096090227,
+            3.0000000000000027
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 1302,
+          "volume_mm3": 574.7335240781443,
+          "vertex_colors": 653,
+          "orientation_note": "Flat 3 mm fang face down; no support. Keep the split root free of paint and brim.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 167.57085810175428,
+            "down_facing_45deg_area_mm2": 9.863774060650117
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 167.57085810175428,
+            "down_facing_45deg_area_mm2": 9.863774060650117
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 1302,
+          "stl_volume_change_fraction": 0.0
+        }
+      ],
+      "stl_watertight_components": 9,
+      "stl_sha256": "eb3405e3cf9a625a2542af7c018d91719fc545ec4a741c0593150f1f0cea26da"
+    },
+    {
+      "bed": 8,
+      "name": "Top rim and lower teeth",
+      "layer": "BED 08 - Top rim and lower teeth",
+      "bed_size_mm": [
+        240,
+        240
+      ],
+      "rhino_origin_mm": [
+        900,
+        0,
+        0
+      ],
+      "stl": "print_beds/Bed_08_Top_Rim_and_Lower_Teeth.stl",
+      "stl_origin_mm": [
+        0,
+        0,
+        0
+      ],
+      "part_count": 7,
+      "max_height_mm": 20.0,
+      "min_pair_bbox_gap_mm": 12.79842994360115,
+      "parts": [
+        {
+          "id": "B01",
+          "name": "Top rim - sleeve channel and stem-support ledge",
+          "bbox_local_mm": [
+            [
+              37.0,
+              37.0,
+              0.0
+            ],
+            [
+              203.0,
+              203.0,
+              20.0
+            ]
+          ],
+          "size_mm": [
+            166.0,
+            166.0,
+            20.0
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 5934,
+          "volume_mm3": 65188.146183465295,
+          "vertex_colors": 2961,
+          "orientation_note": "Flat original base down.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 4149.731117880938,
+            "down_facing_45deg_area_mm2": 2699.033272535337
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 4149.731117880938,
+            "down_facing_45deg_area_mm2": 2699.033272535337
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 5934,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "L01",
+          "name": "Lower flat snap-in tooth 1",
+          "bbox_local_mm": [
+            [
+              90.0,
+              85.0,
+              0.0
+            ],
+            [
+              100.8676691961183,
+              112.20157005639885,
+              3.000000000000007
+            ]
+          ],
+          "size_mm": [
+            10.8676691961183,
+            27.20157005639885,
+            3.000000000000007
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 1388,
+          "volume_mm3": 404.31151951062446,
+          "vertex_colors": 696,
+          "orientation_note": "Flat 3 mm fang face down; no support. Keep the split root free of paint and brim.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 118.63505964367096,
+            "down_facing_45deg_area_mm2": 7.5714086686261295
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 118.63505964367096,
+            "down_facing_45deg_area_mm2": 7.5714086686261295
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 1388,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "L02",
+          "name": "Lower flat snap-in tooth 2",
+          "bbox_local_mm": [
+            [
+              115.0,
+              85.0,
+              0.0
+            ],
+            [
+              125.88784519518413,
+              109.93474857896183,
+              3.0000000000000107
+            ]
+          ],
+          "size_mm": [
+            10.887845195184127,
+            24.93474857896183,
+            3.0000000000000107
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 1440,
+          "volume_mm3": 368.6361069721285,
+          "vertex_colors": 722,
+          "orientation_note": "Flat 3 mm fang face down; no support. Keep the split root free of paint and brim.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 111.00096134615299,
+            "down_facing_45deg_area_mm2": 3.990274938446055
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 111.00096134615299,
+            "down_facing_45deg_area_mm2": 3.990274938446055
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 1440,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "L03",
+          "name": "Lower flat snap-in tooth 3",
+          "bbox_local_mm": [
+            [
+              140.0,
+              85.0,
+              0.0
+            ],
+            [
+              150.884974157004,
+              108.28956574141375,
+              3.0000000000000107
+            ]
+          ],
+          "size_mm": [
+            10.884974157003995,
+            23.289565741413753,
+            3.0000000000000107
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 1432,
+          "volume_mm3": 342.5952734475256,
+          "vertex_colors": 718,
+          "orientation_note": "Flat 3 mm fang face down; no support. Keep the split root free of paint and brim.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 104.89138906672424,
+            "down_facing_45deg_area_mm2": 1.3931575561473006
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 104.89138906672427,
+            "down_facing_45deg_area_mm2": 1.3931575561472955
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 1432,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "L04",
+          "name": "Lower flat snap-in tooth 4",
+          "bbox_local_mm": [
+            [
+              90.0,
+              125.0,
+              0.0
+            ],
+            [
+              100.88689898199931,
+              150.97449185891276,
+              3.0000000000000107
+            ]
+          ],
+          "size_mm": [
+            10.886898981999309,
+            25.974491858912756,
+            3.0000000000000107
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 1414,
+          "volume_mm3": 385.1458718949131,
+          "vertex_colors": 709,
+          "orientation_note": "Flat 3 mm fang face down; no support. Keep the split root free of paint and brim.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 113.74044005689352,
+            "down_facing_45deg_area_mm2": 6.3364221960792815
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 113.74044005689352,
+            "down_facing_45deg_area_mm2": 6.3364221960792815
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 1414,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "L05",
+          "name": "Lower flat snap-in tooth 5",
+          "bbox_local_mm": [
+            [
+              115.0,
+              125.0,
+              0.0
+            ],
+            [
+              125.8895712372555,
+              151.91548255263012,
+              3.0000000000000107
+            ]
+          ],
+          "size_mm": [
+            10.889571237255495,
+            26.915482552630124,
+            3.0000000000000107
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 1414,
+          "volume_mm3": 399.5759758514584,
+          "vertex_colors": 709,
+          "orientation_note": "Flat 3 mm fang face down; no support. Keep the split root free of paint and brim.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 115.38764677120768,
+            "down_facing_45deg_area_mm2": 9.150300309116586
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 115.38764677120768,
+            "down_facing_45deg_area_mm2": 9.150300309116586
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 1414,
+          "stl_volume_change_fraction": 0.0
+        },
+        {
+          "id": "L06",
+          "name": "Lower flat snap-in tooth 6",
+          "bbox_local_mm": [
+            [
+              140.0,
+              125.0,
+              0.0
+            ],
+            [
+              150.86676518366266,
+              148.9842149875102,
+              3.000000000000007
+            ]
+          ],
+          "size_mm": [
+            10.866765183662665,
+            23.9842149875102,
+            3.000000000000007
+          ],
+          "rotation_from_individual_stl_deg": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 1442,
+          "volume_mm3": 354.04943151101907,
+          "vertex_colors": 723,
+          "orientation_note": "Flat 3 mm fang face down; no support. Keep the split root free of paint and brim.",
+          "orientation_metrics_before": {
+            "contact_area_mm2": 103.5070836448364,
+            "down_facing_45deg_area_mm2": 6.945613193493541
+          },
+          "orientation_metrics_after": {
+            "contact_area_mm2": 103.5070836448364,
+            "down_facing_45deg_area_mm2": 6.945613193493541
+          },
+          "stl_cleanup_tolerance_mm": 0.0,
+          "stl_triangles": 1442,
+          "stl_volume_change_fraction": 0.0
+        }
+      ],
+      "stl_watertight_components": 7,
+      "stl_sha256": "d912138e4998f2fff69cc087437be4fb89e297f4d2428940b5ce2520c3105061"
+    }
+  ]
+}
